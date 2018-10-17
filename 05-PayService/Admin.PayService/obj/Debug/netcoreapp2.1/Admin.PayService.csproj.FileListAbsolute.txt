@@ -12,3 +12,17 @@ D:\JobProject\PayEntities\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1
 D:\JobProject\PayEntities\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.RazorTargetAssemblyInfo.cache
 D:\JobProject\PayEntities\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.dll
 D:\JobProject\PayEntities\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.pdb
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\bin\Debug\netcoreapp2.1\Admin.PayService.deps.json
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\bin\Debug\netcoreapp2.1\Admin.PayService.runtimeconfig.json
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\bin\Debug\netcoreapp2.1\Admin.PayService.runtimeconfig.dev.json
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\bin\Debug\netcoreapp2.1\Admin.PayService.dll
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\bin\Debug\netcoreapp2.1\Admin.PayService.pdb
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.csprojAssemblyReference.cache
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.csproj.CoreCompileInputs.cache
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.RazorAssemblyInfo.cache
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.RazorAssemblyInfo.cs
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.AssemblyInfoInputs.cache
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.AssemblyInfo.cs
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.RazorTargetAssemblyInfo.cache
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.dll
+D:\JobProject\PaySystem\05-PayService\Admin.PayService\obj\Debug\netcoreapp2.1\Admin.PayService.pdb

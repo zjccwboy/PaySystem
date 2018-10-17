@@ -1,0 +1,14 @@
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\Base.Rpository.deps.json
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\Base.Rpository.dll
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\Base.Rpository.pdb
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\Base.Common.dll
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\PayEntities.dll
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\Base.Common.pdb
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\bin\Debug\netstandard2.0\PayEntities.pdb
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.csprojAssemblyReference.cache
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.csproj.CoreCompileInputs.cache
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.AssemblyInfoInputs.cache
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.AssemblyInfo.cs
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.csproj.CopyComplete
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.dll
+D:\JobProject\PaySystem\02-PayDal\Base.Rpository\obj\Debug\netstandard2.0\Base.Rpository.pdb

@@ -1,0 +1,9 @@
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\bin\Debug\netstandard2.0\PayDal.Ganerator.deps.json
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\bin\Debug\netstandard2.0\PayDal.Ganerator.dll
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\obj\Debug\netstandard2.0\PayDal.Ganerator.csproj.CoreCompileInputs.cache
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\obj\Debug\netstandard2.0\PayDal.Ganerator.AssemblyInfoInputs.cache
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\obj\Debug\netstandard2.0\PayDal.Ganerator.AssemblyInfo.cs
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\bin\Debug\netstandard2.0\PayDal.Ganerator.pdb
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\obj\Debug\netstandard2.0\PayDal.Ganerator.dll
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\obj\Debug\netstandard2.0\PayDal.Ganerator.pdb
+D:\JobProject\PaySystem\02-PayDal\PayDal.Ganerator\obj\Debug\netstandard2.0\PayDal.Ganerator.csprojAssemblyReference.cache

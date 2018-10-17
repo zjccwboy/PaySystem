@@ -1,0 +1,6 @@
+D:\JobProject\PaySystem\02-PayDal\Admin.Rpository\bin\Debug\netstandard2.0\Admin.Rpository.deps.json
+D:\JobProject\PaySystem\02-PayDal\Admin.Rpository\bin\Debug\netstandard2.0\Admin.Rpository.dll
+D:\JobProject\PaySystem\02-PayDal\Admin.Rpository\obj\Debug\netstandard2.0\Admin.Rpository.csproj.CoreCompileInputs.cache
+D:\JobProject\PaySystem\02-PayDal\Admin.Rpository\obj\Debug\netstandard2.0\Admin.Rpository.AssemblyInfoInputs.cache
+D:\JobProject\PaySystem\02-PayDal\Admin.Rpository\obj\Debug\netstandard2.0\Admin.Rpository.AssemblyInfo.cs
+D:\JobProject\PaySystem\02-PayDal\Admin.Rpository\obj\Debug\netstandard2.0\Admin.Rpository.csprojAssemblyReference.cache
