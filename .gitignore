@@ -21,3 +21,4 @@
 /02-PayDal/Customer.Rpository/obj/Debug/netstandard2.0/*.dll
 /02-PayDal/Merchant.Rpository/bin/Debug/netstandard2.0
 *.pdb
+obj
