@@ -6,6 +6,25 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00-PayBase\Base.Common\Base.Common.csproj" />
+    <ProjectReference Include="..\..\01-PayEntities\PayEntities\PayEntities.csproj" />
+    <ProjectReference Include="..\..\02-PayDal\PaySys.Rpository\PaySys.Rpository.csproj" />
+    <ProjectReference Include="..\..\03-PayModels\Admin.PayModel\Admin.PayModel.csproj" />
+    <ProjectReference Include="..\..\04-PayBll\Admin.PayBll\Admin.PayBll.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Views\Shared\_Layout.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Enums\" />
   </ItemGroup>
 
 </Project>

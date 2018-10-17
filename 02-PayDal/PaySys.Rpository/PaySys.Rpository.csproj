@@ -5,12 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.4" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\01-PayEntities\PayEntities\PayEntities.csproj" />
+    <ProjectReference Include="..\Base.Rpository\Base.Rpository.csproj" />
   </ItemGroup>
 
 </Project>

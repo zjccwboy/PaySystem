@@ -25,6 +25,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Base.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Base.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base.Common.dll": {}
+        }
       }
     }
   },
@@ -168,10 +178,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Base.Common/1.0.0": {
+      "type": "project",
+      "path": "../../00-PayBase/Base.Common/Base.Common.csproj",
+      "msbuildProject": "../../00-PayBase/Base.Common/Base.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Base.Common >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -204,7 +220,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\JobProject\\PaySystem\\00-PayBase\\Base.Common\\Base.Common.csproj": {
+              "projectPath": "D:\\JobProject\\PaySystem\\00-PayBase\\Base.Common\\Base.Common.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

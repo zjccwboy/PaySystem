@@ -17,3 +17,7 @@
 /03-PayModels/Admin.PayModel/obj/Debug/netstandard2.0
 /01-PayEntities/PayEntities/obj/Debug/netstandard2.0
 /00-PayBase/Base.Common/obj/Debug/netstandard2.0
+/02-PayDal/Customer.Rpository/bin/Debug/netstandard2.0/*.dll
+/02-PayDal/Customer.Rpository/obj/Debug/netstandard2.0/*.dll
+/02-PayDal/Merchant.Rpository/bin/Debug/netstandard2.0
+*.pdb

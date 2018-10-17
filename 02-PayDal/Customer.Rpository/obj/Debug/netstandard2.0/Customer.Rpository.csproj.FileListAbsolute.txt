@@ -1,8 +1,0 @@
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\bin\Debug\netstandard2.0\Customer.Rpository.deps.json
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\bin\Debug\netstandard2.0\Customer.Rpository.dll
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\bin\Debug\netstandard2.0\Customer.Rpository.pdb
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\obj\Debug\netstandard2.0\Customer.Rpository.csproj.CoreCompileInputs.cache
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\obj\Debug\netstandard2.0\Customer.Rpository.AssemblyInfoInputs.cache
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\obj\Debug\netstandard2.0\Customer.Rpository.AssemblyInfo.cs
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\obj\Debug\netstandard2.0\Customer.Rpository.dll
-D:\JobProject\PaySystem\02-PayDal\Customer.Rpository\obj\Debug\netstandard2.0\Customer.Rpository.pdb
