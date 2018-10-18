@@ -1,111 +1,331 @@
-﻿<html>
+﻿
+@{
+    Layout = null;
+}
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="renderer" content="webkit">
+    <title>后台登录-X-admin2.0</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
-    <title>@ViewData["Title"] - Customer.PayService</title>
-    @*<title>网站后台管理模版</title>*@
-    <link rel="stylesheet" type="text/css" href="../../static/admin/layui/css/layui.css" />
-    <link rel="stylesheet" type="text/css" href="../../static/admin/css/admin.css" />
+    <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="~/UI/css/font.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/UI/css/xadmin.css" rel="stylesheet" />
+    <script type="text/javascript" src="~/UI/js/jquery3.2.1.js"></script>
+    <script type="text/javascript" src="~/UI/lib/layui/layui.js" charset="utf-8"></script>
+    <script type="text/javascript" src="~/UI/js/xadmin.js"></script>
+
 </head>
 <body>
-    <div class="main-layout" id='main-layout'>
-        <!--侧边栏-->
-        <div class="main-layout-side">
-            <div class="m-logo">
-            </div>
-            <ul class="layui-nav layui-nav-tree" lay-filter="leftNav">
-                <li class="layui-nav-item layui-nav-itemed">
-                    <a href="javascript:;"><i class="iconfont">&#xe607;</i>菜单管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="menu1.html" data-id='1' data-text="后台菜单"><span class="l-line"></span>后台菜单</a></dd>
-                        <dd><a href="javascript:;" data-url="menu2.html" data-id='2' data-text="前台菜单"><span class="l-line"></span>前台菜单</a></dd>
-                    </dl>
+    <!-- 顶部开始 -->
+    <div class="container">
+        <div class="logo"><a href="./index.html">X-admin v2.0</a></div>
+        <div class="left_open">
+            <i title="展开左侧栏" class="iconfont">&#xe699;</i>
+        </div>
+        <ul class="layui-nav left fast-add" lay-filter="">
+            <li class="layui-nav-item">
+                <a href="javascript:;">+新增</a>
+                <dl class="layui-nav-child">
+                    <!-- 二级菜单 -->
+                    <dd><a onclick="x_admin_show('资讯','http://www.baidu.com')"><i class="iconfont">&#xe6a2;</i>资讯</a></dd>
+                    <dd><a onclick="x_admin_show('图片','http://www.baidu.com')"><i class="iconfont">&#xe6a8;</i>图片</a></dd>
+                    <dd><a onclick="x_admin_show('用户','http://www.baidu.com')"><i class="iconfont">&#xe6b8;</i>用户</a></dd>
+                </dl>
+            </li>
+        </ul>
+        <ul class="layui-nav right" lay-filter="">
+            <li class="layui-nav-item">
+                <a href="javascript:;">admin</a>
+                <dl class="layui-nav-child">
+                    <!-- 二级菜单 -->
+                    <dd><a onclick="x_admin_show('个人信息','http://www.baidu.com')">个人信息</a></dd>
+                    <dd><a onclick="x_admin_show('切换帐号','http://www.baidu.com')">切换帐号</a></dd>
+                    <dd><a href="./login.html">退出</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item to-index"><a href="/">前台首页</a></li>
+        </ul>
+
+    </div>
+    <!-- 顶部结束 -->
+    <!-- 中部开始 -->
+    <!-- 左侧菜单开始 -->
+    <div class="left-nav">
+        <div id="side-nav">
+            <ul id="nav">
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe6b8;</i>
+                        <cite>商户管理</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="/Merchant/index">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>商户列表</cite>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="/Merchant/index">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>商户/已审核</cite>
+
+                            </a>
+                        </li>
+                        <li>
+                        <li>
+                            <a _href="/Merchant/index">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>商户/未审核</cite>
+
+                            </a>
+                        </li>
+                        <li>
+                        <li>
+                            <a _href="/Merchant/index">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>银行卡审核</cite>
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe70b;</i>
+                                <cite>商户管理</cite>
+                                <i class="iconfont nav_right">&#xe697;</i>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a _href="xxx.html">
+                                        <i class="iconfont">&#xe6a7;</i>
+                                        <cite>商户列表</cite>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a _href="xx.html">
+                                        <i class="iconfont">&#xe6a7;</i>
+                                        <cite>商户删除</cite>
+
+                                    </a>
+                                </li>
+                                <li>
+                                    <a _href="xx.html">
+                                        <i class="iconfont">&#xe6a7;</i>
+                                        <cite>等级管理</cite>
+
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="iconfont">&#xe608;</i>内容管理</a>
-                    <dl class="layui-nav-child">
-                        <dd><a href="javascript:;" data-url="article-list.html" data-id='3' data-text="文章管理"><span class="l-line"></span>文章管理</a></dd>
-                        <dd><a href="javascript:;" data-url="danye-list.html" data-id='9' data-text="单页管理"><span class="l-line"></span>单页管理</a></dd>
-                    </dl>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe723;</i>
+                        <cite>订单管理</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="../../../UI/order-list.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>异常订单</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/order-list.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>失败订单</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/order-list.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>成功订单</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe723;</i>
+                                <cite>订单管理</cite>
+                                <i class="iconfont nav_right">&#xe697;</i>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="iconfont">&#xe604;</i>推荐位管理</a>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe723;</i>
+                        <cite>分类管理</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="../../../UI/cate.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>多级分类</cite>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="iconfont">&#xe60c;</i>友情链接</a>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe723;</i>
+                        <cite>城市联动</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="../../../UI/city.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>三级地区联动</cite>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="iconfont">&#xe60a;</i>RBAC</a>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe726;</i>
+                        <cite>管理员管理</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="../../../UI/admin-list.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>管理员列表</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/admin-role.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>角色管理</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/admin-cate.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>权限分类</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/admin-rule.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>权限管理</cite>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i class="iconfont">&#xe603;</i>邮件系统</a>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe6ce;</i>
+                        <cite>系统统计</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="../../../UI/echarts1.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>拆线图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="echarts2.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>柱状图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/echarts3.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>地图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/echarts4.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>饼图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/echarts5.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>雷达图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/echarts6.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>k线图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/echarts7.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>热力图</cite>
+                            </a>
+                        </li>
+                        <li>
+                            <a _href="../../../UI/echarts8.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>仪表图</cite>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="iconfont">&#xe60d;</i>生成静态</a>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;"><i class="iconfont">&#xe600;</i>备份管理</a>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息"><i class="iconfont">&#xe606;</i>个人信息</a>
-                </li>
-                <li class="layui-nav-item">
-                    <a href="javascript:;" data-url="system.html" data-id='6' data-text="系统设置"><i class="iconfont">&#xe60b;</i>系统设置</a>
+                <li>
+                    <a href="javascript:;">
+                        <i class="iconfont">&#xe6b4;</i>
+                        <cite>图标字体</cite>
+                        <i class="iconfont nav_right">&#xe697;</i>
+                    </a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a _href="../../../UI/unicode.html">
+                                <i class="iconfont">&#xe6a7;</i>
+                                <cite>图标对应字体</cite>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </div>
-        <!--右侧内容-->
-        <div class="main-layout-container">
-            <!--头部-->
-            <div class="main-layout-header">
-                <div class="menu-btn" id="hideBtn">
-                    <a href="javascript:;">
-                        <span class="iconfont">&#xe60e;</span>
-                    </a>
-                </div>
-                <ul class="layui-nav" lay-filter="rightNav">
-                    <li class="layui-nav-item"><a href="javascript:;" data-url="email.html" data-id='4' data-text="邮件系统"><i class="iconfont">&#xe603;</i></a></li>
-                    <li class="layui-nav-item">
-                        <a href="javascript:;" data-url="admin-info.html" data-id='5' data-text="个人信息">超级管理员</a>
-                    </li>
-                    <li class="layui-nav-item"><a href="javascript:;">退出</a></li>
-                </ul>
-            </div>
-            <!--主体内容-->
-            <div class="main-layout-body">
-                <!--tab 切换-->
-                <div class="layui-tab layui-tab-brief main-layout-tab" lay-filter="tab" lay-allowClose="true">
-                    <ul class="layui-tab-title">
-                        <li class="layui-this welcome">后台主页</li>
-                    </ul>
-                    <div class="layui-tab-content">
-                        <div class="layui-tab-item layui-show" style="background: #f5f5f5;">
-                            <!--1-->
-                            <iframe src="welcome.html" width="100%" height="100%" name="iframe" scrolling="auto" class="iframe" framborder="0"></iframe>
-                            <!--1end-->
-                        </div>
-                    </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <!-- <div class="x-slide_left"></div> -->
+    <!-- 左侧菜单结束 -->
+    <!-- 右侧主体开始 -->
+    <div class="page-content">
+        <div class="layui-tab tab" lay-filter="xbs_tab" lay-allowclose="false">
+            <ul class="layui-tab-title">
+                <li class="home"><i class="layui-icon">&#xe68e;</i>我的桌面</li>
+            </ul>
+            <div class="layui-tab-content">
+                <div class="layui-tab-item layui-show">
+                    <iframe src='../../../UI/welcome.html' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
                 </div>
             </div>
-        </div>
-        <!--遮罩-->
-        <div class="main-mask">
-            <hr>@RenderBody()<hr />
-            <footer>
-                <p>&copy; 2018 - Customer.PayService</p>
-            </footer>
         </div>
     </div>
-    <script type="text/javascript">
-        var scope = {
-            link: './welcome.html'
-        }
-    </script>
-    <script src="../../static/admin/layui/layui.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../../static/admin/js/common.js" type="text/javascript" charset="utf-8"></script>
-    <script src="../../static/admin/js/main.js" type="text/javascript" charset="utf-8"></script>
-
+    <div class="page-content-bg"></div>
+    <!-- 右侧主体结束 -->
+    <!-- 中部结束 -->
+    <!-- 底部开始 -->
+    <div class="footer">
+        <div class="copyright">Copyright ©2017 x-admin v2.3 All Rights Reserved</div>
+    </div>
 </body>
 </html>
