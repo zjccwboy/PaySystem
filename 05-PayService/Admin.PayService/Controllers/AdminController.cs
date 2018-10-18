@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Admin.PayModel;
-using Admin.PayService.Models;
 using Base.Common.Enums;
 using Microsoft.AspNetCore.Mvc;
 using Admin.PayBll;
@@ -26,37 +25,42 @@ namespace Admin.PayService.Controllers
             return View();
         }
 
-        public async Task<CreateAccountResultModel> CreateAdmin(CreateAdminModel model)
+        public async Task<JsonResult> CreateAdmin(RequestModel<CreateAdminModel> model)
         {
-            var result = new CreateAccountResultModel { ResultCode = (int)ResultCode.UnKnowError };
-            if(string.IsNullOrWhiteSpace(model.UserName))
+            var result = new ResponseModel{ ResultCode = (int)ResultCode.UnKnowError };
+            if(string.IsNullOrWhiteSpace(model.Body.UserName))
             {
                 result.ResultCode = (int)AdminResultCode.UserNameNotNull;
-                return result;
+                result.Message = "用户名不能为空";
+                return Json(result);
             }
-            if(model.UserName.Length > 20)
+            if(model.Body.UserName.Length > 20)
             {
                 result.ResultCode = (int)AdminResultCode.UserNameOutLength;
-                return result;
+                result.Message = "用户名不能超过20个字符串";
+                return Json(result);
             }
-            if(string.IsNullOrWhiteSpace(model.Password))
+            if(string.IsNullOrWhiteSpace(model.Body.Password))
             {
                 result.ResultCode = (int)AdminResultCode.PasswordNotNull;
-                return result;
+                result.Message = "密码不能为空";
+                return Json(result);
             }
-            if(model.Password.Length < 8)
+            if(model.Body.Password.Length < 8)
             {
                 result.ResultCode = (int)AdminResultCode.PasswordTooShort;
-                return result;
+                result.Message = "密码不能小于8位";
+                return Json(result);
             }
-            if(model.Password.Length > 32)
+            if(model.Body.Password.Length > 32)
             {
                 result.ResultCode = (int)AdminResultCode.PasswordOutLength;
-                return result;
+                result.Message = "密码不超过32位";
+                return Json(result);
             }
-            var resultCode = await this.AccountManagerBll.AddAdmin(model);
+            var resultCode = await this.AccountManagerBll.AddAdmin(model.Body);
             result.ResultCode = (int)resultCode;
-            return result;
+            return Json(result);
         }
 
     }

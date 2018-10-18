@@ -30,7 +30,7 @@ namespace Base.WebCore.Filter
             context.Exception,
             context.Exception.Message);
 
-            var json = new ErrorResponse("未知错误,请重试", (int)ResultCode.UnKnowError);
+            var json = new ResponseModel() { Message = "未知错误,请重试", ResultCode = (int)ResultCode.UnKnowError };
             if (_env.IsDevelopment()) json.DeveloperMessage = context.Exception;
 
             context.Result = new ApplicationErrorResult(json);
@@ -44,16 +44,6 @@ namespace Base.WebCore.Filter
             public ApplicationErrorResult(object value) : base(value)
             {
                 StatusCode = (int)HttpStatusCode.InternalServerError;
-            }
-        }
-        
-
-        public class ErrorResponse : ResultModel
-        {
-            public ErrorResponse(string msg, int resultCode)
-            {
-                Message = msg;
-                ResultCode = resultCode;
             }
         }
     }
