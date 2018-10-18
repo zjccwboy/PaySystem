@@ -1,9 +1,10 @@
 namespace Base.Common
 {
     public enum CnArea
-    {        /// <summary>
-             /// 阿巴嘎旗
-             /// <summary>
+    {     
+        /// <summary>
+        /// 阿巴嘎旗
+        /// <summary>
         _141103 = 141103,
 
         /// <summary>
