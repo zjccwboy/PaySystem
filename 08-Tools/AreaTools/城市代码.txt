@@ -1,0 +1,2614 @@
+{
+    global: {},
+    items: [{
+        key: "321900",
+        _isComm: "0",
+        _mnemonic: "AB",
+        _parent: "320000",
+        _name: "阿坝藏族羌族自治州"
+    },
+    {
+        key: "400800",
+        _isComm: "0",
+        _mnemonic: "AKS",
+        _parent: "400000",
+        _name: "阿克苏地区"
+    },
+    {
+        key: "141200",
+        _isComm: "0",
+        _mnemonic: "ALSM",
+        _parent: "140000",
+        _name: "阿拉善盟"
+    },
+    {
+        key: "401400",
+        _isComm: "0",
+        _mnemonic: "ALT",
+        _parent: "400000",
+        _name: "阿勒泰地区"
+    },
+    {
+        key: "350600",
+        _isComm: "0",
+        _mnemonic: "AL",
+        _parent: "350000",
+        _name: "阿里地区"
+    },
+    {
+        key: "360900",
+        _isComm: "0",
+        _mnemonic: "AK",
+        _parent: "360000",
+        _name: "安康市"
+    },
+    {
+        key: "210800",
+        _isComm: "0",
+        _mnemonic: "AQ",
+        _parent: "210000",
+        _name: "安庆市"
+    },
+    {
+        key: "330400",
+        _isComm: "0",
+        _mnemonic: "AS",
+        _parent: "330000",
+        _name: "安顺市"
+    },
+    {
+        key: "250500",
+        _isComm: "0",
+        _mnemonic: "AY",
+        _parent: "250000",
+        _name: "安阳市"
+    },
+    {
+        key: "150300",
+        _isComm: "0",
+        _mnemonic: "AS",
+        _parent: "150000",
+        _name: "鞍山市"
+    },
+    {
+        key: "430100",
+        _isComm: "0",
+        _mnemonic: "AMBD",
+        _parent: "430000",
+        _name: "澳门半岛"
+    },
+    {
+        key: "140800",
+        _isComm: "0",
+        _mnemonic: "BYNE",
+        _parent: "140000",
+        _name: "巴彦淖尔市"
+    },
+    {
+        key: "400700",
+        _isComm: "0",
+        _mnemonic: "BYGL",
+        _parent: "400000",
+        _name: "巴音郭楞蒙古自治州"
+    },
+    {
+        key: "321700",
+        _isComm: "0",
+        _mnemonic: "BZ",
+        _parent: "320000",
+        _name: "巴中市"
+    },
+    {
+        key: "160800",
+        _isComm: "0",
+        _mnemonic: "BC",
+        _parent: "160000",
+        _name: "白城市"
+    },
+    {
+        key: "160600",
+        _isComm: "0",
+        _mnemonic: "BS",
+        _parent: "160000",
+        _name: "白山市"
+    },
+    {
+        key: "370400",
+        _isComm: "0",
+        _mnemonic: "BY",
+        _parent: "370000",
+        _name: "白银市"
+    },
+    {
+        key: "291000",
+        _isComm: "0",
+        _mnemonic: "BS",
+        _parent: "290000",
+        _name: "百色市"
+    },
+    {
+        key: "210300",
+        _isComm: "0",
+        _mnemonic: "BB",
+        _parent: "210000",
+        _name: "蚌埠市"
+    },
+    {
+        key: "140200",
+        _isComm: "0",
+        _mnemonic: "BT",
+        _parent: "140000",
+        _name: "包头市"
+    },
+    {
+        key: "360300",
+        _isComm: "0",
+        _mnemonic: "BJ",
+        _parent: "360000",
+        _name: "宝鸡市"
+    },
+    {
+        key: "120600",
+        _isComm: "0",
+        _mnemonic: "BD",
+        _parent: "120000",
+        _name: "保定市"
+    },
+    {
+        key: "340400",
+        _isComm: "0",
+        _mnemonic: "BS",
+        _parent: "340000",
+        _name: "保山市"
+    },
+    {
+        key: "290500",
+        _isComm: "0",
+        _mnemonic: "BH",
+        _parent: "290000",
+        _name: "北海市"
+    },
+    {
+        key: "100100",
+        _isComm: "1",
+        _mnemonic: "BJ",
+        _parent: "100000",
+        _name: "北京市"
+    },
+    {
+        key: "150500",
+        _isComm: "0",
+        _mnemonic: "BX",
+        _parent: "150000",
+        _name: "本溪市"
+    },
+    {
+        key: "330500",
+        _isComm: "0",
+        _mnemonic: "BJ",
+        _parent: "330000",
+        _name: "毕节市"
+    },
+    {
+        key: "241600",
+        _isComm: "0",
+        _mnemonic: "BZ",
+        _parent: "240000",
+        _name: "滨州市"
+    },
+    {
+        key: "211400",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "210000",
+        _name: "亳州市"
+    },
+    {
+        key: "400600",
+        _isComm: "0",
+        _mnemonic: "BETL",
+        _parent: "400000",
+        _name: "博尔塔拉蒙古自治州"
+    },
+    {
+        key: "120900",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "120000",
+        _name: "沧州市"
+    },
+    {
+        key: "350300",
+        _isComm: "0",
+        _mnemonic: "CD",
+        _parent: "350000",
+        _name: "昌都市"
+    },
+    {
+        key: "400500",
+        _isComm: "0",
+        _mnemonic: "CJ",
+        _parent: "400000",
+        _name: "昌吉回族自治州"
+    },
+    {
+        key: "270700",
+        _isComm: "0",
+        _mnemonic: "CD",
+        _parent: "270000",
+        _name: "常德市"
+    },
+    {
+        key: "190400",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "190000",
+        _name: "常州市"
+    },
+    {
+        key: "151300",
+        _isComm: "0",
+        _mnemonic: "CY",
+        _parent: "150000",
+        _name: "朝阳市"
+    },
+    {
+        key: "281900",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "280000",
+        _name: "潮州市"
+    },
+    {
+        key: "271000",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "270000",
+        _name: "郴州市"
+    },
+    {
+        key: "320100",
+        _isComm: "1",
+        _mnemonic: "CD",
+        _parent: "320000",
+        _name: "成都市"
+    },
+    {
+        key: "120800",
+        _isComm: "0",
+        _mnemonic: "CD",
+        _parent: "120000",
+        _name: "承德市"
+    },
+    {
+        key: "211500",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "210000",
+        _name: "池州市"
+    },
+    {
+        key: "140400",
+        _isComm: "0",
+        _mnemonic: "CF",
+        _parent: "140000",
+        _name: "赤峰市"
+    },
+    {
+        key: "291400",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "290000",
+        _name: "崇左市"
+    },
+    {
+        key: "211000",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "210000",
+        _name: "滁州市"
+    },
+    {
+        key: "340900",
+        _isComm: "0",
+        _mnemonic: "CX",
+        _parent: "340000",
+        _name: "楚雄彝族自治州"
+    },
+    {
+        key: "321500",
+        _isComm: "0",
+        _mnemonic: "DZ",
+        _parent: "320000",
+        _name: "达州市"
+    },
+    {
+        key: "341300",
+        _isComm: "0",
+        _mnemonic: "DL",
+        _parent: "340000",
+        _name: "大理白族自治州"
+    },
+    {
+        key: "150200",
+        _isComm: "0",
+        _mnemonic: "DL",
+        _parent: "150000",
+        _name: "大连市"
+    },
+    {
+        key: "170600",
+        _isComm: "0",
+        _mnemonic: "DQ",
+        _parent: "170000",
+        _name: "大庆市"
+    },
+    {
+        key: "130200",
+        _isComm: "0",
+        _mnemonic: "DT",
+        _parent: "130000",
+        _name: "大同市"
+    },
+    {
+        key: "171300",
+        _isComm: "0",
+        _mnemonic: "DXAL",
+        _parent: "170000",
+        _name: "大兴安岭地区"
+    },
+    {
+        key: "150600",
+        _isComm: "0",
+        _mnemonic: "DD",
+        _parent: "150000",
+        _name: "丹东市"
+    },
+    {
+        key: "430200",
+        _isComm: "0",
+        _mnemonic: "DZD",
+        _parent: "430000",
+        _name: "氹仔岛"
+    },
+    {
+        key: "341400",
+        _isComm: "0",
+        _mnemonic: "DH",
+        _parent: "340000",
+        _name: "德宏傣族景颇族自治州"
+    },
+    {
+        key: "320500",
+        _isComm: "0",
+        _mnemonic: "DY",
+        _parent: "320000",
+        _name: "德阳市"
+    },
+    {
+        key: "241400",
+        _isComm: "0",
+        _mnemonic: "DZ",
+        _parent: "240000",
+        _name: "德州市"
+    },
+    {
+        key: "341600",
+        _isComm: "0",
+        _mnemonic: "DQ",
+        _parent: "340000",
+        _name: "迪庆藏族自治州"
+    },
+    {
+        key: "371100",
+        _isComm: "0",
+        _mnemonic: "DX",
+        _parent: "370000",
+        _name: "定西市"
+    },
+    {
+        key: "281700",
+        _isComm: "0",
+        _mnemonic: "DG",
+        _parent: "280000",
+        _name: "东莞市"
+    },
+    {
+        key: "240500",
+        _isComm: "0",
+        _mnemonic: "DY",
+        _parent: "240000",
+        _name: "东营市"
+    },
+    {
+        key: "140600",
+        _isComm: "0",
+        _mnemonic: "EEDS",
+        _parent: "140000",
+        _name: "鄂尔多斯市"
+    },
+    {
+        key: "260600",
+        _isComm: "0",
+        _mnemonic: "EZ",
+        _parent: "260000",
+        _name: "鄂州市"
+    },
+    {
+        key: "261300",
+        _isComm: "0",
+        _mnemonic: "ES",
+        _parent: "260000",
+        _name: "恩施土家族苗族自治州"
+    },
+    {
+        key: "290600",
+        _isComm: "0",
+        _mnemonic: "FCG",
+        _parent: "290000",
+        _name: "防城港市"
+    },
+    {
+        key: "280600",
+        _isComm: "0",
+        _mnemonic: "FS",
+        _parent: "280000",
+        _name: "佛山市"
+    },
+    {
+        key: "220100",
+        _isComm: "0",
+        _mnemonic: "FZ",
+        _parent: "220000",
+        _name: "福州市"
+    },
+    {
+        key: "150400",
+        _isComm: "0",
+        _mnemonic: "FS",
+        _parent: "150000",
+        _name: "抚顺市"
+    },
+    {
+        key: "231000",
+        _isComm: "0",
+        _mnemonic: "FZ",
+        _parent: "230000",
+        _name: "抚州市"
+    },
+    {
+        key: "150900",
+        _isComm: "0",
+        _mnemonic: "FX",
+        _parent: "150000",
+        _name: "阜新市"
+    },
+    {
+        key: "211100",
+        _isComm: "0",
+        _mnemonic: "FY",
+        _parent: "210000",
+        _name: "阜阳市"
+    },
+    {
+        key: "371400",
+        _isComm: "0",
+        _mnemonic: "GN",
+        _parent: "370000",
+        _name: "甘南藏族自治州"
+    },
+    {
+        key: "322000",
+        _isComm: "0",
+        _mnemonic: "GZ",
+        _parent: "320000",
+        _name: "甘孜藏族自治州"
+    },
+    {
+        key: "230700",
+        _isComm: "0",
+        _mnemonic: "GZ",
+        _parent: "230000",
+        _name: "赣州市"
+    },
+    {
+        key: "410200",
+        _isComm: "0",
+        _mnemonic: "GX",
+        _parent: "410000",
+        _name: "高雄"
+    },
+    {
+        key: "390400",
+        _isComm: "0",
+        _mnemonic: "GY",
+        _parent: "390000",
+        _name: "固原市"
+    },
+    {
+        key: "321400",
+        _isComm: "0",
+        _mnemonic: "GA",
+        _parent: "320000",
+        _name: "广安市"
+    },
+    {
+        key: "320700",
+        _isComm: "0",
+        _mnemonic: "GY",
+        _parent: "320000",
+        _name: "广元市"
+    },
+    {
+        key: "280100",
+        _isComm: "1",
+        _mnemonic: "GZ",
+        _parent: "280000",
+        _name: "广州市"
+    },
+    {
+        key: "290800",
+        _isComm: "0",
+        _mnemonic: "GG",
+        _parent: "290000",
+        _name: "贵港市"
+    },
+    {
+        key: "330100",
+        _isComm: "0",
+        _mnemonic: "GY",
+        _parent: "330000",
+        _name: "贵阳市"
+    },
+    {
+        key: "290300",
+        _isComm: "0",
+        _mnemonic: "GL",
+        _parent: "290000",
+        _name: "桂林市"
+    },
+    {
+        key: "380600",
+        _isComm: "0",
+        _mnemonic: "GL",
+        _parent: "380000",
+        _name: "果洛藏族自治州"
+    },
+    {
+        key: "170100",
+        _isComm: "0",
+        _mnemonic: "HEB",
+        _parent: "170000",
+        _name: "哈尔滨市"
+    },
+    {
+        key: "400400",
+        _isComm: "0",
+        _mnemonic: "HM",
+        _parent: "400000",
+        _name: "哈密地区"
+    },
+    {
+        key: "380300",
+        _isComm: "0",
+        _mnemonic: "HB",
+        _parent: "380000",
+        _name: "海北藏族自治州"
+    },
+    {
+        key: "380200",
+        _isComm: "0",
+        _mnemonic: "HD",
+        _parent: "380000",
+        _name: "海东市"
+    },
+    {
+        key: "300100",
+        _isComm: "0",
+        _mnemonic: "HK",
+        _parent: "300000",
+        _name: "海口市"
+    },
+    {
+        key: "380500",
+        _isComm: "0",
+        _mnemonic: "HN",
+        _parent: "380000",
+        _name: "海南藏族自治州"
+    },
+    {
+        key: "380800",
+        _isComm: "0",
+        _mnemonic: "HX",
+        _parent: "380000",
+        _name: "海西蒙古族藏族自治州"
+    },
+    {
+        key: "120400",
+        _isComm: "0",
+        _mnemonic: "HD",
+        _parent: "120000",
+        _name: "邯郸市"
+    },
+    {
+        key: "360700",
+        _isComm: "0",
+        _mnemonic: "HZ",
+        _parent: "360000",
+        _name: "汉中市"
+    },
+    {
+        key: "200100",
+        _isComm: "1",
+        _mnemonic: "HZ",
+        _parent: "200000",
+        _name: "杭州市"
+    },
+    {
+        key: "210100",
+        _isComm: "0",
+        _mnemonic: "HF",
+        _parent: "210000",
+        _name: "合肥市"
+    },
+    {
+        key: "401100",
+        _isComm: "0",
+        _mnemonic: "HT",
+        _parent: "400000",
+        _name: "和田地区"
+    },
+    {
+        key: "291200",
+        _isComm: "0",
+        _mnemonic: "HC",
+        _parent: "290000",
+        _name: "河池市"
+    },
+    {
+        key: "281400",
+        _isComm: "0",
+        _mnemonic: "HY",
+        _parent: "280000",
+        _name: "河源市"
+    },
+    {
+        key: "241700",
+        _isComm: "0",
+        _mnemonic: "HZ",
+        _parent: "240000",
+        _name: "菏泽市"
+    },
+    {
+        key: "291100",
+        _isComm: "0",
+        _mnemonic: "HZ",
+        _parent: "290000",
+        _name: "贺州市"
+    },
+    {
+        key: "250600",
+        _isComm: "0",
+        _mnemonic: "HB",
+        _parent: "250000",
+        _name: "鹤壁市"
+    },
+    {
+        key: "170400",
+        _isComm: "0",
+        _mnemonic: "HG",
+        _parent: "170000",
+        _name: "鹤岗市"
+    },
+    {
+        key: "171100",
+        _isComm: "0",
+        _mnemonic: "HH",
+        _parent: "170000",
+        _name: "黑河市"
+    },
+    {
+        key: "121100",
+        _isComm: "0",
+        _mnemonic: "HS",
+        _parent: "120000",
+        _name: "衡水市"
+    },
+    {
+        key: "270400",
+        _isComm: "0",
+        _mnemonic: "HY",
+        _parent: "270000",
+        _name: "衡阳市"
+    },
+    {
+        key: "341000",
+        _isComm: "0",
+        _mnemonic: "HH",
+        _parent: "340000",
+        _name: "红河哈尼族彝族自治州"
+    },
+    {
+        key: "140100",
+        _isComm: "0",
+        _mnemonic: "HHHT",
+        _parent: "140000",
+        _name: "呼和浩特市"
+    },
+    {
+        key: "140700",
+        _isComm: "0",
+        _mnemonic: "HLBE",
+        _parent: "140000",
+        _name: "呼伦贝尔市"
+    },
+    {
+        key: "151400",
+        _isComm: "0",
+        _mnemonic: "HLD",
+        _parent: "150000",
+        _name: "葫芦岛市"
+    },
+    {
+        key: "200500",
+        _isComm: "0",
+        _mnemonic: "HZ",
+        _parent: "200000",
+        _name: "湖州市"
+    },
+    {
+        key: "411900",
+        _isComm: "0",
+        _mnemonic: "HL",
+        _parent: "410000",
+        _name: "花莲"
+    },
+    {
+        key: "271200",
+        _isComm: "0",
+        _mnemonic: "HH",
+        _parent: "270000",
+        _name: "怀化市"
+    },
+    {
+        key: "190800",
+        _isComm: "0",
+        _mnemonic: "HA",
+        _parent: "190000",
+        _name: "淮安市"
+    },
+    {
+        key: "210600",
+        _isComm: "0",
+        _mnemonic: "HB",
+        _parent: "210000",
+        _name: "淮北市"
+    },
+    {
+        key: "210400",
+        _isComm: "0",
+        _mnemonic: "HN",
+        _parent: "210000",
+        _name: "淮南市"
+    },
+    {
+        key: "261000",
+        _isComm: "0",
+        _mnemonic: "HG",
+        _parent: "260000",
+        _name: "黄冈市"
+    },
+    {
+        key: "380400",
+        _isComm: "0",
+        _mnemonic: "HN",
+        _parent: "380000",
+        _name: "黄南藏族自治州"
+    },
+    {
+        key: "210900",
+        _isComm: "0",
+        _mnemonic: "HS",
+        _parent: "210000",
+        _name: "黄山市"
+    },
+    {
+        key: "260200",
+        _isComm: "0",
+        _mnemonic: "HS",
+        _parent: "260000",
+        _name: "黄石市"
+    },
+    {
+        key: "281100",
+        _isComm: "0",
+        _mnemonic: "HZ",
+        _parent: "280000",
+        _name: "惠州市"
+    },
+    {
+        key: "170300",
+        _isComm: "0",
+        _mnemonic: "JX",
+        _parent: "170000",
+        _name: "鸡西市"
+    },
+    {
+        key: "410300",
+        _isComm: "0",
+        _mnemonic: "JL",
+        _parent: "410000",
+        _name: "基隆"
+    },
+    {
+        key: "230800",
+        _isComm: "0",
+        _mnemonic: "JA",
+        _parent: "230000",
+        _name: "吉安市"
+    },
+    {
+        key: "160200",
+        _isComm: "0",
+        _mnemonic: "JL",
+        _parent: "160000",
+        _name: "吉林市"
+    },
+    {
+        key: "240100",
+        _isComm: "0",
+        _mnemonic: "JN",
+        _parent: "240000",
+        _name: "济南市"
+    },
+    {
+        key: "240800",
+        _isComm: "0",
+        _mnemonic: "JN",
+        _parent: "240000",
+        _name: "济宁市"
+    },
+    {
+        key: "170800",
+        _isComm: "0",
+        _mnemonic: "JMS",
+        _parent: "170000",
+        _name: "佳木斯市"
+    },
+    {
+        key: "200400",
+        _isComm: "0",
+        _mnemonic: "JX",
+        _parent: "200000",
+        _name: "嘉兴市"
+    },
+    {
+        key: "410700",
+        _isComm: "0",
+        _mnemonic: "JY",
+        _parent: "410000",
+        _name: "嘉义"
+    },
+    {
+        key: "411600",
+        _isComm: "0",
+        _mnemonic: "JY",
+        _parent: "410000",
+        _name: "嘉义"
+    },
+    {
+        key: "370200",
+        _isComm: "0",
+        _mnemonic: "JYG",
+        _parent: "370000",
+        _name: "嘉峪关市"
+    },
+    {
+        key: "280700",
+        _isComm: "0",
+        _mnemonic: "JM",
+        _parent: "280000",
+        _name: "江门市"
+    },
+    {
+        key: "250800",
+        _isComm: "0",
+        _mnemonic: "JZ",
+        _parent: "250000",
+        _name: "焦作市"
+    },
+    {
+        key: "282000",
+        _isComm: "0",
+        _mnemonic: "JY",
+        _parent: "280000",
+        _name: "揭阳市"
+    },
+    {
+        key: "370300",
+        _isComm: "0",
+        _mnemonic: "JC",
+        _parent: "370000",
+        _name: "金昌市"
+    },
+    {
+        key: "200700",
+        _isComm: "0",
+        _mnemonic: "JH",
+        _parent: "200000",
+        _name: "金华市"
+    },
+    {
+        key: "412100",
+        _isComm: "0",
+        _mnemonic: "JM",
+        _parent: "410000",
+        _name: "金门"
+    },
+    {
+        key: "151500",
+        _isComm: "0",
+        _mnemonic: "JPXQ",
+        _parent: "150000",
+        _name: "金普新区"
+    },
+    {
+        key: "150700",
+        _isComm: "0",
+        _mnemonic: "JZ",
+        _parent: "150000",
+        _name: "锦州市"
+    },
+    {
+        key: "130500",
+        _isComm: "0",
+        _mnemonic: "JC",
+        _parent: "130000",
+        _name: "晋城市"
+    },
+    {
+        key: "130700",
+        _isComm: "0",
+        _mnemonic: "JZ",
+        _parent: "130000",
+        _name: "晋中市"
+    },
+    {
+        key: "260700",
+        _isComm: "0",
+        _mnemonic: "JM",
+        _parent: "260000",
+        _name: "荆门市"
+    },
+    {
+        key: "260900",
+        _isComm: "0",
+        _mnemonic: "JZ",
+        _parent: "260000",
+        _name: "荆州市"
+    },
+    {
+        key: "230200",
+        _isComm: "0",
+        _mnemonic: "JDZ",
+        _parent: "230000",
+        _name: "景德镇市"
+    },
+    {
+        key: "230400",
+        _isComm: "0",
+        _mnemonic: "JJ",
+        _parent: "230000",
+        _name: "九江市"
+    },
+    {
+        key: "420200",
+        _isComm: "0",
+        _mnemonic: "JL",
+        _parent: "420000",
+        _name: "九龙"
+    },
+    {
+        key: "370900",
+        _isComm: "0",
+        _mnemonic: "JQ",
+        _parent: "370000",
+        _name: "酒泉市"
+    },
+    {
+        key: "401000",
+        _isComm: "0",
+        _mnemonic: "KS",
+        _parent: "400000",
+        _name: "喀什地区"
+    },
+    {
+        key: "250200",
+        _isComm: "0",
+        _mnemonic: "KF",
+        _parent: "250000",
+        _name: "开封市"
+    },
+    {
+        key: "400200",
+        _isComm: "0",
+        _mnemonic: "KLMY",
+        _parent: "400000",
+        _name: "克拉玛依市"
+    },
+    {
+        key: "400900",
+        _isComm: "0",
+        _mnemonic: "KZLS",
+        _parent: "400000",
+        _name: "克孜勒苏柯尔克孜自治州"
+    },
+    {
+        key: "340100",
+        _isComm: "0",
+        _mnemonic: "KM",
+        _parent: "340000",
+        _name: "昆明市"
+    },
+    {
+        key: "350100",
+        _isComm: "0",
+        _mnemonic: "LS",
+        _parent: "350000",
+        _name: "拉萨市"
+    },
+    {
+        key: "291300",
+        _isComm: "0",
+        _mnemonic: "LB",
+        _parent: "290000",
+        _name: "来宾市"
+    },
+    {
+        key: "241200",
+        _isComm: "0",
+        _mnemonic: "LW",
+        _parent: "240000",
+        _name: "莱芜市"
+    },
+    {
+        key: "370100",
+        _isComm: "0",
+        _mnemonic: "LZ",
+        _parent: "370000",
+        _name: "兰州市"
+    },
+    {
+        key: "121000",
+        _isComm: "0",
+        _mnemonic: "LF",
+        _parent: "120000",
+        _name: "廊坊市"
+    },
+    {
+        key: "321000",
+        _isComm: "0",
+        _mnemonic: "LS",
+        _parent: "320000",
+        _name: "乐山市"
+    },
+    {
+        key: "340600",
+        _isComm: "0",
+        _mnemonic: "LJ",
+        _parent: "340000",
+        _name: "丽江市"
+    },
+    {
+        key: "201100",
+        _isComm: "0",
+        _mnemonic: "LS",
+        _parent: "200000",
+        _name: "丽水市"
+    },
+    {
+        key: "412200",
+        _isComm: "0",
+        _mnemonic: "LJ",
+        _parent: "410000",
+        _name: "连江"
+    },
+    {
+        key: "190700",
+        _isComm: "0",
+        _mnemonic: "LYG",
+        _parent: "190000",
+        _name: "连云港市"
+    },
+    {
+        key: "322100",
+        _isComm: "0",
+        _mnemonic: "LS",
+        _parent: "320000",
+        _name: "凉山彝族自治州"
+    },
+    {
+        key: "310200",
+        _isComm: "0",
+        _mnemonic: "LJXQ",
+        _parent: "310000",
+        _name: "两江新区"
+    },
+    {
+        key: "151000",
+        _isComm: "0",
+        _mnemonic: "LY",
+        _parent: "150000",
+        _name: "辽阳市"
+    },
+    {
+        key: "160400",
+        _isComm: "0",
+        _mnemonic: "LY",
+        _parent: "160000",
+        _name: "辽源市"
+    },
+    {
+        key: "241500",
+        _isComm: "0",
+        _mnemonic: "LC",
+        _parent: "240000",
+        _name: "聊城市"
+    },
+    {
+        key: "350700",
+        _isComm: "0",
+        _mnemonic: "LZ",
+        _parent: "350000",
+        _name: "林芝地区"
+    },
+    {
+        key: "340800",
+        _isComm: "0",
+        _mnemonic: "LC",
+        _parent: "340000",
+        _name: "临沧市"
+    },
+    {
+        key: "131000",
+        _isComm: "0",
+        _mnemonic: "LF",
+        _parent: "130000",
+        _name: "临汾市"
+    },
+    {
+        key: "371300",
+        _isComm: "0",
+        _mnemonic: "LX",
+        _parent: "370000",
+        _name: "临夏回族自治州"
+    },
+    {
+        key: "241300",
+        _isComm: "0",
+        _mnemonic: "LY",
+        _parent: "240000",
+        _name: "临沂市"
+    },
+    {
+        key: "290200",
+        _isComm: "0",
+        _mnemonic: "LZ",
+        _parent: "290000",
+        _name: "柳州市"
+    },
+    {
+        key: "211300",
+        _isComm: "0",
+        _mnemonic: "LA",
+        _parent: "210000",
+        _name: "六安市"
+    },
+    {
+        key: "330200",
+        _isComm: "0",
+        _mnemonic: "LPS",
+        _parent: "330000",
+        _name: "六盘水市"
+    },
+    {
+        key: "220800",
+        _isComm: "0",
+        _mnemonic: "LY",
+        _parent: "220000",
+        _name: "龙岩市"
+    },
+    {
+        key: "371200",
+        _isComm: "0",
+        _mnemonic: "LN",
+        _parent: "370000",
+        _name: "陇南市"
+    },
+    {
+        key: "271300",
+        _isComm: "0",
+        _mnemonic: "LD",
+        _parent: "270000",
+        _name: "娄底市"
+    },
+    {
+        key: "320400",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "320000",
+        _name: "泸州市"
+    },
+    {
+        key: "430300",
+        _isComm: "0",
+        _mnemonic: "LHD",
+        _parent: "430000",
+        _name: "路环岛"
+    },
+    {
+        key: "250300",
+        _isComm: "0",
+        _mnemonic: "LY",
+        _parent: "250000",
+        _name: "洛阳市"
+    },
+    {
+        key: "251100",
+        _isComm: "0",
+        _mnemonic: "ZH",
+        _parent: "250000",
+        _name: "漯河市"
+    },
+    {
+        key: "131100",
+        _isComm: "0",
+        _mnemonic: "LL",
+        _parent: "130000",
+        _name: "吕梁市"
+    },
+    {
+        key: "210500",
+        _isComm: "0",
+        _mnemonic: "MAS",
+        _parent: "210000",
+        _name: "马鞍山市"
+    },
+    {
+        key: "280900",
+        _isComm: "0",
+        _mnemonic: "MM",
+        _parent: "280000",
+        _name: "茂名市"
+    },
+    {
+        key: "321200",
+        _isComm: "0",
+        _mnemonic: "MS",
+        _parent: "320000",
+        _name: "眉山市"
+    },
+    {
+        key: "281200",
+        _isComm: "0",
+        _mnemonic: "MZ",
+        _parent: "280000",
+        _name: "梅州市"
+    },
+    {
+        key: "320600",
+        _isComm: "0",
+        _mnemonic: "MY",
+        _parent: "320000",
+        _name: "绵阳市"
+    },
+    {
+        key: "411200",
+        _isComm: "0",
+        _mnemonic: "ML",
+        _parent: "410000",
+        _name: "苗栗"
+    },
+    {
+        key: "171000",
+        _isComm: "0",
+        _mnemonic: "MDJ",
+        _parent: "170000",
+        _name: "牡丹江市"
+    },
+    {
+        key: "350500",
+        _isComm: "0",
+        _mnemonic: "NQ",
+        _parent: "350000",
+        _name: "那曲地区"
+    },
+    {
+        key: "230100",
+        _isComm: "0",
+        _mnemonic: "NC",
+        _parent: "230000",
+        _name: "南昌市"
+    },
+    {
+        key: "321100",
+        _isComm: "0",
+        _mnemonic: "NC",
+        _parent: "320000",
+        _name: "南充市"
+    },
+    {
+        key: "190100",
+        _isComm: "0",
+        _mnemonic: "NJ",
+        _parent: "190000",
+        _name: "南京市"
+    },
+    {
+        key: "290100",
+        _isComm: "0",
+        _mnemonic: "NN",
+        _parent: "290000",
+        _name: "南宁市"
+    },
+    {
+        key: "220700",
+        _isComm: "0",
+        _mnemonic: "NP",
+        _parent: "220000",
+        _name: "南平市"
+    },
+    {
+        key: "190600",
+        _isComm: "0",
+        _mnemonic: "NT",
+        _parent: "190000",
+        _name: "南通市"
+    },
+    {
+        key: "411400",
+        _isComm: "0",
+        _mnemonic: "NT",
+        _parent: "410000",
+        _name: "南投"
+    },
+    {
+        key: "251300",
+        _isComm: "0",
+        _mnemonic: "NY",
+        _parent: "250000",
+        _name: "南阳市"
+    },
+    {
+        key: "320900",
+        _isComm: "0",
+        _mnemonic: "NJ",
+        _parent: "320000",
+        _name: "内江市"
+    },
+    {
+        key: "200200",
+        _isComm: "0",
+        _mnemonic: "NB",
+        _parent: "200000",
+        _name: "宁波市"
+    },
+    {
+        key: "220900",
+        _isComm: "0",
+        _mnemonic: "ND",
+        _parent: "220000",
+        _name: "宁德市"
+    },
+    {
+        key: "341500",
+        _isComm: "0",
+        _mnemonic: "NJ",
+        _parent: "340000",
+        _name: "怒江傈僳族自治州"
+    },
+    {
+        key: "320300",
+        _isComm: "0",
+        _mnemonic: "PZH",
+        _parent: "320000",
+        _name: "攀枝花市"
+    },
+    {
+        key: "151100",
+        _isComm: "0",
+        _mnemonic: "PJ",
+        _parent: "150000",
+        _name: "盘锦市"
+    },
+    {
+        key: "412000",
+        _isComm: "0",
+        _mnemonic: "PH",
+        _parent: "410000",
+        _name: "澎湖"
+    },
+    {
+        key: "250400",
+        _isComm: "0",
+        _mnemonic: "PDS",
+        _parent: "250000",
+        _name: "平顶山市"
+    },
+    {
+        key: "370800",
+        _isComm: "0",
+        _mnemonic: "PL",
+        _parent: "370000",
+        _name: "平凉市"
+    },
+    {
+        key: "411700",
+        _isComm: "0",
+        _mnemonic: "PD",
+        _parent: "410000",
+        _name: "屏东"
+    },
+    {
+        key: "230300",
+        _isComm: "0",
+        _mnemonic: "PX",
+        _parent: "230000",
+        _name: "萍乡市"
+    },
+    {
+        key: "220300",
+        _isComm: "0",
+        _mnemonic: "PT",
+        _parent: "220000",
+        _name: "莆田市"
+    },
+    {
+        key: "250900",
+        _isComm: "0",
+        _mnemonic: "ZY",
+        _parent: "250000",
+        _name: "濮阳市"
+    },
+    {
+        key: "340700",
+        _isComm: "0",
+        _mnemonic: "PE",
+        _parent: "340000",
+        _name: "普洱市"
+    },
+    {
+        key: "170900",
+        _isComm: "0",
+        _mnemonic: "QTH",
+        _parent: "170000",
+        _name: "七台河市"
+    },
+    {
+        key: "170200",
+        _isComm: "0",
+        _mnemonic: "QQHE",
+        _parent: "170000",
+        _name: "齐齐哈尔市"
+    },
+    {
+        key: "330800",
+        _isComm: "0",
+        _mnemonic: "QDN",
+        _parent: "330000",
+        _name: "黔东南苗族侗族自治州"
+    },
+    {
+        key: "330900",
+        _isComm: "0",
+        _mnemonic: "QN",
+        _parent: "330000",
+        _name: "黔南布依族苗族自治州"
+    },
+    {
+        key: "330700",
+        _isComm: "0",
+        _mnemonic: "QXN",
+        _parent: "330000",
+        _name: "黔西南布依族苗族自治州"
+    },
+    {
+        key: "290700",
+        _isComm: "0",
+        _mnemonic: "QZ",
+        _parent: "290000",
+        _name: "钦州市"
+    },
+    {
+        key: "120300",
+        _isComm: "0",
+        _mnemonic: "QHD",
+        _parent: "120000",
+        _name: "秦皇岛市"
+    },
+    {
+        key: "240200",
+        _isComm: "0",
+        _mnemonic: "QD",
+        _parent: "240000",
+        _name: "青岛市"
+    },
+    {
+        key: "281600",
+        _isComm: "0",
+        _mnemonic: "QY",
+        _parent: "280000",
+        _name: "清远市"
+    },
+    {
+        key: "371000",
+        _isComm: "0",
+        _mnemonic: "QY",
+        _parent: "370000",
+        _name: "庆阳市"
+    },
+    {
+        key: "200800",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "200000",
+        _name: "衢州市"
+    },
+    {
+        key: "340200",
+        _isComm: "0",
+        _mnemonic: "QJ",
+        _parent: "340000",
+        _name: "曲靖市"
+    },
+    {
+        key: "220500",
+        _isComm: "0",
+        _mnemonic: "QZ",
+        _parent: "220000",
+        _name: "泉州市"
+    },
+    {
+        key: "350200",
+        _isComm: "0",
+        _mnemonic: "RKZ",
+        _parent: "350000",
+        _name: "日喀则市"
+    },
+    {
+        key: "241100",
+        _isComm: "0",
+        _mnemonic: "RZ",
+        _parent: "240000",
+        _name: "日照市"
+    },
+    {
+        key: "251200",
+        _isComm: "0",
+        _mnemonic: "SMX",
+        _parent: "250000",
+        _name: "三门峡市"
+    },
+    {
+        key: "220400",
+        _isComm: "0",
+        _mnemonic: "SM",
+        _parent: "220000",
+        _name: "三明市"
+    },
+    {
+        key: "300300",
+        _isComm: "0",
+        _mnemonic: "SS",
+        _parent: "300000",
+        _name: "三沙市"
+    },
+    {
+        key: "300200",
+        _isComm: "0",
+        _mnemonic: "SY",
+        _parent: "300000",
+        _name: "三亚市"
+    },
+    {
+        key: "220200",
+        _isComm: "1",
+        _mnemonic: "XM",
+        _parent: "220000",
+        _name: "厦门市"
+    },
+    {
+        key: "350400",
+        _isComm: "0",
+        _mnemonic: "SN",
+        _parent: "350000",
+        _name: "山南地区"
+    },
+    {
+        key: "280500",
+        _isComm: "0",
+        _mnemonic: "ST",
+        _parent: "280000",
+        _name: "汕头市"
+    },
+    {
+        key: "281300",
+        _isComm: "0",
+        _mnemonic: "SW",
+        _parent: "280000",
+        _name: "汕尾市"
+    },
+    {
+        key: "361000",
+        _isComm: "0",
+        _mnemonic: "SL",
+        _parent: "360000",
+        _name: "商洛市"
+    },
+    {
+        key: "251400",
+        _isComm: "0",
+        _mnemonic: "SQ",
+        _parent: "250000",
+        _name: "商丘市"
+    },
+    {
+        key: "180100",
+        _isComm: "1",
+        _mnemonic: "SH",
+        _parent: "180000",
+        _name: "上海市"
+    },
+    {
+        key: "231100",
+        _isComm: "0",
+        _mnemonic: "SR",
+        _parent: "230000",
+        _name: "上饶市"
+    },
+    {
+        key: "280200",
+        _isComm: "0",
+        _mnemonic: "SG",
+        _parent: "280000",
+        _name: "韶关市"
+    },
+    {
+        key: "270500",
+        _isComm: "0",
+        _mnemonic: "SY",
+        _parent: "270000",
+        _name: "邵阳市"
+    },
+    {
+        key: "200600",
+        _isComm: "0",
+        _mnemonic: "SX",
+        _parent: "200000",
+        _name: "绍兴市"
+    },
+    {
+        key: "280300",
+        _isComm: "1",
+        _mnemonic: "SZ",
+        _parent: "280000",
+        _name: "深圳市"
+    },
+    {
+        key: "150100",
+        _isComm: "0",
+        _mnemonic: "SY",
+        _parent: "150000",
+        _name: "沈阳市"
+    },
+    {
+        key: "260300",
+        _isComm: "0",
+        _mnemonic: "SY",
+        _parent: "260000",
+        _name: "十堰市"
+    },
+    {
+        key: "120100",
+        _isComm: "0",
+        _mnemonic: "SJZ",
+        _parent: "120000",
+        _name: "石家庄市"
+    },
+    {
+        key: "390200",
+        _isComm: "0",
+        _mnemonic: "SZS",
+        _parent: "390000",
+        _name: "石嘴山市"
+    },
+    {
+        key: "170500",
+        _isComm: "0",
+        _mnemonic: "SYS",
+        _parent: "170000",
+        _name: "双鸭山市"
+    },
+    {
+        key: "130600",
+        _isComm: "0",
+        _mnemonic: "SZ",
+        _parent: "130000",
+        _name: "朔州市"
+    },
+    {
+        key: "160300",
+        _isComm: "0",
+        _mnemonic: "SP",
+        _parent: "160000",
+        _name: "四平市"
+    },
+    {
+        key: "160700",
+        _isComm: "0",
+        _mnemonic: "SY",
+        _parent: "160000",
+        _name: "松原市"
+    },
+    {
+        key: "190500",
+        _isComm: "0",
+        _mnemonic: "SZ",
+        _parent: "190000",
+        _name: "苏州市"
+    },
+    {
+        key: "171200",
+        _isComm: "0",
+        _mnemonic: "SH",
+        _parent: "170000",
+        _name: "绥化市"
+    },
+    {
+        key: "261200",
+        _isComm: "0",
+        _mnemonic: "SZ",
+        _parent: "260000",
+        _name: "随州市"
+    },
+    {
+        key: "320800",
+        _isComm: "0",
+        _mnemonic: "SN",
+        _parent: "320000",
+        _name: "遂宁市"
+    },
+    {
+        key: "401300",
+        _isComm: "0",
+        _mnemonic: "TC",
+        _parent: "400000",
+        _name: "塔城地区"
+    },
+    {
+        key: "410100",
+        _isComm: "0",
+        _mnemonic: "TB",
+        _parent: "410000",
+        _name: "台北"
+    },
+    {
+        key: "411800",
+        _isComm: "0",
+        _mnemonic: "TD",
+        _parent: "410000",
+        _name: "台东"
+    },
+    {
+        key: "410500",
+        _isComm: "0",
+        _mnemonic: "TN",
+        _parent: "410000",
+        _name: "台南"
+    },
+    {
+        key: "410400",
+        _isComm: "0",
+        _mnemonic: "TZ",
+        _parent: "410000",
+        _name: "台中"
+    },
+    {
+        key: "201000",
+        _isComm: "0",
+        _mnemonic: "TZ",
+        _parent: "200000",
+        _name: "台州市"
+    },
+    {
+        key: "130100",
+        _isComm: "0",
+        _mnemonic: "TY",
+        _parent: "130000",
+        _name: "太原市"
+    },
+    {
+        key: "240900",
+        _isComm: "0",
+        _mnemonic: "TA",
+        _parent: "240000",
+        _name: "泰安市"
+    },
+    {
+        key: "191200",
+        _isComm: "0",
+        _mnemonic: "TZ",
+        _parent: "190000",
+        _name: "泰州市"
+    },
+    {
+        key: "120200",
+        _isComm: "0",
+        _mnemonic: "TS",
+        _parent: "120000",
+        _name: "唐山市"
+    },
+    {
+        key: "411000",
+        _isComm: "0",
+        _mnemonic: "TY",
+        _parent: "410000",
+        _name: "桃园"
+    },
+    {
+        key: "110100",
+        _isComm: "1",
+        _mnemonic: "TJ",
+        _parent: "110000",
+        _name: "天津市"
+    },
+    {
+        key: "370500",
+        _isComm: "0",
+        _mnemonic: "TS",
+        _parent: "370000",
+        _name: "天水市"
+    },
+    {
+        key: "151200",
+        _isComm: "0",
+        _mnemonic: "TL",
+        _parent: "150000",
+        _name: "铁岭市"
+    },
+    {
+        key: "160500",
+        _isComm: "0",
+        _mnemonic: "TH",
+        _parent: "160000",
+        _name: "通化市"
+    },
+    {
+        key: "140500",
+        _isComm: "0",
+        _mnemonic: "TL",
+        _parent: "140000",
+        _name: "通辽市"
+    },
+    {
+        key: "360200",
+        _isComm: "0",
+        _mnemonic: "TC",
+        _parent: "360000",
+        _name: "铜川市"
+    },
+    {
+        key: "210700",
+        _isComm: "0",
+        _mnemonic: "TL",
+        _parent: "210000",
+        _name: "铜陵市"
+    },
+    {
+        key: "330600",
+        _isComm: "0",
+        _mnemonic: "TR",
+        _parent: "330000",
+        _name: "铜仁市"
+    },
+    {
+        key: "400300",
+        _isComm: "0",
+        _mnemonic: "TLF",
+        _parent: "400000",
+        _name: "吐鲁番地区"
+    },
+    {
+        key: "241000",
+        _isComm: "0",
+        _mnemonic: "WH",
+        _parent: "240000",
+        _name: "威海市"
+    },
+    {
+        key: "240700",
+        _isComm: "0",
+        _mnemonic: "WF",
+        _parent: "240000",
+        _name: "潍坊市"
+    },
+    {
+        key: "360500",
+        _isComm: "0",
+        _mnemonic: "WN",
+        _parent: "360000",
+        _name: "渭南市"
+    },
+    {
+        key: "200300",
+        _isComm: "0",
+        _mnemonic: "WZ",
+        _parent: "200000",
+        _name: "温州市"
+    },
+    {
+        key: "341100",
+        _isComm: "0",
+        _mnemonic: "WS",
+        _parent: "340000",
+        _name: "文山壮族苗族自治州"
+    },
+    {
+        key: "140300",
+        _isComm: "0",
+        _mnemonic: "WH",
+        _parent: "140000",
+        _name: "乌海市"
+    },
+    {
+        key: "140900",
+        _isComm: "0",
+        _mnemonic: "WLCB",
+        _parent: "140000",
+        _name: "乌兰察布市"
+    },
+    {
+        key: "400100",
+        _isComm: "0",
+        _mnemonic: "WLMQ",
+        _parent: "400000",
+        _name: "乌鲁木齐市"
+    },
+    {
+        key: "190200",
+        _isComm: "0",
+        _mnemonic: "WX",
+        _parent: "190000",
+        _name: "无锡市"
+    },
+    {
+        key: "210200",
+        _isComm: "0",
+        _mnemonic: "WH",
+        _parent: "210000",
+        _name: "芜湖市"
+    },
+    {
+        key: "390300",
+        _isComm: "0",
+        _mnemonic: "WZ",
+        _parent: "390000",
+        _name: "吴忠市"
+    },
+    {
+        key: "290400",
+        _isComm: "0",
+        _mnemonic: "WZ",
+        _parent: "290000",
+        _name: "梧州市"
+    },
+    {
+        key: "260100",
+        _isComm: "1",
+        _mnemonic: "WH",
+        _parent: "260000",
+        _name: "武汉市"
+    },
+    {
+        key: "370600",
+        _isComm: "0",
+        _mnemonic: "WW",
+        _parent: "370000",
+        _name: "武威市"
+    },
+    {
+        key: "360100",
+        _isComm: "1",
+        _mnemonic: "XA",
+        _parent: "360000",
+        _name: "西安市"
+    },
+    {
+        key: "380100",
+        _isComm: "0",
+        _mnemonic: "XN",
+        _parent: "380000",
+        _name: "西宁市"
+    },
+    {
+        key: "341200",
+        _isComm: "0",
+        _mnemonic: "XSBN",
+        _parent: "340000",
+        _name: "西双版纳傣族自治州"
+    },
+    {
+        key: "361100",
+        _isComm: "0",
+        _mnemonic: "XX",
+        _parent: "360000",
+        _name: "西咸新区"
+    },
+    {
+        key: "141100",
+        _isComm: "0",
+        _mnemonic: "XLGLM",
+        _parent: "140000",
+        _name: "锡林郭勒盟"
+    },
+    {
+        key: "261100",
+        _isComm: "0",
+        _mnemonic: "XN",
+        _parent: "260000",
+        _name: "咸宁市"
+    },
+    {
+        key: "360400",
+        _isComm: "0",
+        _mnemonic: "XY",
+        _parent: "360000",
+        _name: "咸阳市"
+    },
+    {
+        key: "420100",
+        _isComm: "0",
+        _mnemonic: "XGD",
+        _parent: "420000",
+        _name: "香港岛"
+    },
+    {
+        key: "270300",
+        _isComm: "0",
+        _mnemonic: "XT",
+        _parent: "270000",
+        _name: "湘潭市"
+    },
+    {
+        key: "271400",
+        _isComm: "0",
+        _mnemonic: "XX",
+        _parent: "270000",
+        _name: "湘西土家族苗族自治州"
+    },
+    {
+        key: "260500",
+        _isComm: "0",
+        _mnemonic: "XY",
+        _parent: "260000",
+        _name: "襄阳市"
+    },
+    {
+        key: "260800",
+        _isComm: "0",
+        _mnemonic: "XG",
+        _parent: "260000",
+        _name: "孝感市"
+    },
+    {
+        key: "130900",
+        _isComm: "0",
+        _mnemonic: "XZ",
+        _parent: "130000",
+        _name: "忻州市"
+    },
+    {
+        key: "410800",
+        _isComm: "0",
+        _mnemonic: "XB",
+        _parent: "410000",
+        _name: "新北"
+    },
+    {
+        key: "420300",
+        _isComm: "0",
+        _mnemonic: "XJ",
+        _parent: "420000",
+        _name: "新界"
+    },
+    {
+        key: "250700",
+        _isComm: "0",
+        _mnemonic: "XX",
+        _parent: "250000",
+        _name: "新乡市"
+    },
+    {
+        key: "230500",
+        _isComm: "0",
+        _mnemonic: "XY",
+        _parent: "230000",
+        _name: "新余市"
+    },
+    {
+        key: "410600",
+        _isComm: "0",
+        _mnemonic: "XZ",
+        _parent: "410000",
+        _name: "新竹"
+    },
+    {
+        key: "411100",
+        _isComm: "0",
+        _mnemonic: "XZ",
+        _parent: "410000",
+        _name: "新竹"
+    },
+    {
+        key: "251500",
+        _isComm: "0",
+        _mnemonic: "XY",
+        _parent: "250000",
+        _name: "信阳市"
+    },
+    {
+        key: "120500",
+        _isComm: "0",
+        _mnemonic: "XT",
+        _parent: "120000",
+        _name: "邢台市"
+    },
+    {
+        key: "141000",
+        _isComm: "0",
+        _mnemonic: "XAM",
+        _parent: "140000",
+        _name: "兴安盟"
+    },
+    {
+        key: "191300",
+        _isComm: "0",
+        _mnemonic: "SQ",
+        _parent: "190000",
+        _name: "宿迁市"
+    },
+    {
+        key: "211200",
+        _isComm: "0",
+        _mnemonic: "SZ",
+        _parent: "210000",
+        _name: "宿州市"
+    },
+    {
+        key: "190300",
+        _isComm: "0",
+        _mnemonic: "XZ",
+        _parent: "190000",
+        _name: "徐州市"
+    },
+    {
+        key: "251000",
+        _isComm: "0",
+        _mnemonic: "XC",
+        _parent: "250000",
+        _name: "许昌市"
+    },
+    {
+        key: "211600",
+        _isComm: "0",
+        _mnemonic: "XC",
+        _parent: "210000",
+        _name: "宣城市"
+    },
+    {
+        key: "321600",
+        _isComm: "0",
+        _mnemonic: "YA",
+        _parent: "320000",
+        _name: "雅安市"
+    },
+    {
+        key: "240600",
+        _isComm: "0",
+        _mnemonic: "YT",
+        _parent: "240000",
+        _name: "烟台市"
+    },
+    {
+        key: "360600",
+        _isComm: "0",
+        _mnemonic: "YA",
+        _parent: "360000",
+        _name: "延安市"
+    },
+    {
+        key: "160900",
+        _isComm: "0",
+        _mnemonic: "YB",
+        _parent: "160000",
+        _name: "延边朝鲜族自治州"
+    },
+    {
+        key: "190900",
+        _isComm: "0",
+        _mnemonic: "YC",
+        _parent: "190000",
+        _name: "盐城市"
+    },
+    {
+        key: "191000",
+        _isComm: "0",
+        _mnemonic: "YZ",
+        _parent: "190000",
+        _name: "扬州市"
+    },
+    {
+        key: "281500",
+        _isComm: "0",
+        _mnemonic: "YJ",
+        _parent: "280000",
+        _name: "阳江市"
+    },
+    {
+        key: "130300",
+        _isComm: "0",
+        _mnemonic: "YQ",
+        _parent: "130000",
+        _name: "阳泉市"
+    },
+    {
+        key: "170700",
+        _isComm: "0",
+        _mnemonic: "YC",
+        _parent: "170000",
+        _name: "伊春市"
+    },
+    {
+        key: "401200",
+        _isComm: "0",
+        _mnemonic: "YL",
+        _parent: "400000",
+        _name: "伊犁哈萨克自治州"
+    },
+    {
+        key: "321300",
+        _isComm: "0",
+        _mnemonic: "YB",
+        _parent: "320000",
+        _name: "宜宾市"
+    },
+    {
+        key: "260400",
+        _isComm: "0",
+        _mnemonic: "YC",
+        _parent: "260000",
+        _name: "宜昌市"
+    },
+    {
+        key: "230900",
+        _isComm: "0",
+        _mnemonic: "YC",
+        _parent: "230000",
+        _name: "宜春市"
+    },
+    {
+        key: "410900",
+        _isComm: "0",
+        _mnemonic: "YL",
+        _parent: "410000",
+        _name: "宜兰"
+    },
+    {
+        key: "270900",
+        _isComm: "0",
+        _mnemonic: "YY",
+        _parent: "270000",
+        _name: "益阳市"
+    },
+    {
+        key: "390100",
+        _isComm: "0",
+        _mnemonic: "YC",
+        _parent: "390000",
+        _name: "银川市"
+    },
+    {
+        key: "230600",
+        _isComm: "0",
+        _mnemonic: "YT",
+        _parent: "230000",
+        _name: "鹰潭市"
+    },
+    {
+        key: "150800",
+        _isComm: "0",
+        _mnemonic: "YK",
+        _parent: "150000",
+        _name: "营口市"
+    },
+    {
+        key: "271100",
+        _isComm: "0",
+        _mnemonic: "YZ",
+        _parent: "270000",
+        _name: "永州市"
+    },
+    {
+        key: "360800",
+        _isComm: "0",
+        _mnemonic: "YL",
+        _parent: "360000",
+        _name: "榆林市"
+    },
+    {
+        key: "290900",
+        _isComm: "0",
+        _mnemonic: "YL",
+        _parent: "290000",
+        _name: "玉林市"
+    },
+    {
+        key: "380700",
+        _isComm: "0",
+        _mnemonic: "YS",
+        _parent: "380000",
+        _name: "玉树藏族自治州"
+    },
+    {
+        key: "340300",
+        _isComm: "0",
+        _mnemonic: "YX",
+        _parent: "340000",
+        _name: "玉溪市"
+    },
+    {
+        key: "270600",
+        _isComm: "0",
+        _mnemonic: "YY",
+        _parent: "270000",
+        _name: "岳阳市"
+    },
+    {
+        key: "282100",
+        _isComm: "0",
+        _mnemonic: "YF",
+        _parent: "280000",
+        _name: "云浮市"
+    },
+    {
+        key: "411500",
+        _isComm: "0",
+        _mnemonic: "YL",
+        _parent: "410000",
+        _name: "云林"
+    },
+    {
+        key: "130800",
+        _isComm: "0",
+        _mnemonic: "YC",
+        _parent: "130000",
+        _name: "运城市"
+    },
+    {
+        key: "240400",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "240000",
+        _name: "枣庄市"
+    },
+    {
+        key: "280800",
+        _isComm: "0",
+        _mnemonic: "ZJ",
+        _parent: "280000",
+        _name: "湛江市"
+    },
+    {
+        key: "270800",
+        _isComm: "0",
+        _mnemonic: "ZJJ",
+        _parent: "270000",
+        _name: "张家界市"
+    },
+    {
+        key: "120700",
+        _isComm: "0",
+        _mnemonic: "ZJK",
+        _parent: "120000",
+        _name: "张家口市"
+    },
+    {
+        key: "370700",
+        _isComm: "0",
+        _mnemonic: "ZY",
+        _parent: "370000",
+        _name: "张掖市"
+    },
+    {
+        key: "411300",
+        _isComm: "0",
+        _mnemonic: "ZH",
+        _parent: "410000",
+        _name: "彰化"
+    },
+    {
+        key: "220600",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "220000",
+        _name: "漳州市"
+    },
+    {
+        key: "160100",
+        _isComm: "0",
+        _mnemonic: "CC",
+        _parent: "160000",
+        _name: "长春市"
+    },
+    {
+        key: "270100",
+        _isComm: "1",
+        _mnemonic: "CS",
+        _parent: "270000",
+        _name: "长沙市"
+    },
+    {
+        key: "130400",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _parent: "130000",
+        _name: "长治市"
+    },
+    {
+        key: "340500",
+        _isComm: "0",
+        _mnemonic: "ZT",
+        _parent: "340000",
+        _name: "昭通市"
+    },
+    {
+        key: "281000",
+        _isComm: "0",
+        _mnemonic: "ZQ",
+        _parent: "280000",
+        _name: "肇庆市"
+    },
+    {
+        key: "191100",
+        _isComm: "0",
+        _mnemonic: "ZJ",
+        _parent: "190000",
+        _name: "镇江市"
+    },
+    {
+        key: "250100",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "250000",
+        _name: "郑州市"
+    },
+    {
+        key: "251800",
+        _isComm: "0",
+        _mnemonic: "ZXX",
+        _parent: "250000",
+        _name: "直辖县级"
+    },
+    {
+        key: "261400",
+        _isComm: "0",
+        _mnemonic: "ZXX",
+        _parent: "260000",
+        _name: "直辖县级"
+    },
+    {
+        key: "300400",
+        _isComm: "0",
+        _mnemonic: "ZXX",
+        _parent: "300000",
+        _name: "直辖县级"
+    },
+    {
+        key: "401500",
+        _isComm: "0",
+        _mnemonic: "ZXX",
+        _parent: "400000",
+        _name: "直辖县级"
+    },
+    {
+        key: "281800",
+        _isComm: "0",
+        _mnemonic: "ZS",
+        _parent: "280000",
+        _name: "中山市"
+    },
+    {
+        key: "390500",
+        _isComm: "0",
+        _mnemonic: "ZW",
+        _parent: "390000",
+        _name: "中卫市"
+    },
+    {
+        key: "310100",
+        _isComm: "1",
+        _mnemonic: "CQ",
+        _parent: "310000",
+        _name: "重庆市"
+    },
+    {
+        key: "201200",
+        _isComm: "0",
+        _mnemonic: "ZSXQ",
+        _parent: "200000",
+        _name: "舟山群岛新区"
+    },
+    {
+        key: "200900",
+        _isComm: "0",
+        _mnemonic: "ZS",
+        _parent: "200000",
+        _name: "舟山市"
+    },
+    {
+        key: "251600",
+        _isComm: "0",
+        _mnemonic: "ZK",
+        _parent: "250000",
+        _name: "周口市"
+    },
+    {
+        key: "280400",
+        _isComm: "0",
+        _mnemonic: "ZH",
+        _parent: "280000",
+        _name: "珠海市"
+    },
+    {
+        key: "270200",
+        _isComm: "0",
+        _mnemonic: "ZZ",
+        _parent: "270000",
+        _name: "株洲市"
+    },
+    {
+        key: "251700",
+        _isComm: "0",
+        _mnemonic: "ZMD",
+        _parent: "250000",
+        _name: "驻马店市"
+    },
+    {
+        key: "321800",
+        _isComm: "0",
+        _mnemonic: "ZY",
+        _parent: "320000",
+        _name: "资阳市"
+    },
+    {
+        key: "240300",
+        _isComm: "0",
+        _mnemonic: "ZB",
+        _parent: "240000",
+        _name: "淄博市"
+    },
+    {
+        key: "320200",
+        _isComm: "0",
+        _mnemonic: "ZG",
+        _parent: "320000",
+        _name: "自贡市"
+    },
+    {
+        key: "330300",
+        _isComm: "0",
+        _mnemonic: "ZY",
+        _parent: "330000",
+        _name: "遵义市"
+    }]
+}

@@ -1,0 +1,174 @@
+{
+    global: {},
+    items: [{
+        key: "210000",
+        _mnemonic: "AH",
+        _name: "安徽省"
+    },
+    {
+        key: "430000",
+        _mnemonic: "AM",
+        _name: "澳门"
+    },
+    {
+        key: "100000",
+        _mnemonic: "BJ",
+        _name: "北京"
+    },
+    {
+        key: "220000",
+        _mnemonic: "FJ",
+        _name: "福建省"
+    },
+    {
+        key: "370000",
+        _mnemonic: "GS",
+        _name: "甘肃省"
+    },
+    {
+        key: "280000",
+        _mnemonic: "GD",
+        _name: "广东省"
+    },
+    {
+        key: "290000",
+        _mnemonic: "GX",
+        _name: "广西壮族自治区"
+    },
+    {
+        key: "330000",
+        _mnemonic: "GZ",
+        _name: "贵州省"
+    },
+    {
+        key: "300000",
+        _mnemonic: "HN",
+        _name: "海南省"
+    },
+    {
+        key: "120000",
+        _mnemonic: "HB",
+        _name: "河北省"
+    },
+    {
+        key: "250000",
+        _mnemonic: "HN",
+        _name: "河南省"
+    },
+    {
+        key: "170000",
+        _mnemonic: "HLJ",
+        _name: "黑龙江省"
+    },
+    {
+        key: "260000",
+        _mnemonic: "HB",
+        _name: "湖北省"
+    },
+    {
+        key: "270000",
+        _mnemonic: "HN",
+        _name: "湖南省"
+    },
+    {
+        key: "160000",
+        _mnemonic: "JL",
+        _name: "吉林省"
+    },
+    {
+        key: "190000",
+        _mnemonic: "JS",
+        _name: "江苏省"
+    },
+    {
+        key: "230000",
+        _mnemonic: "JX",
+        _name: "江西省"
+    },
+    {
+        key: "150000",
+        _mnemonic: "LN",
+        _name: "辽宁省"
+    },
+    {
+        key: "140000",
+        _mnemonic: "NMG",
+        _name: "内蒙古自治区"
+    },
+    {
+        key: "390000",
+        _mnemonic: "NX",
+        _name: "宁夏回族自治区"
+    },
+    {
+        key: "380000",
+        _mnemonic: "QH",
+        _name: "青海省"
+    },
+    {
+        key: "240000",
+        _mnemonic: "SD",
+        _name: "山东省"
+    },
+    {
+        key: "130000",
+        _mnemonic: "SX",
+        _name: "山西省"
+    },
+    {
+        key: "360000",
+        _mnemonic: "SX",
+        _name: "陕西省"
+    },
+    {
+        key: "180000",
+        _mnemonic: "SH",
+        _name: "上海"
+    },
+    {
+        key: "320000",
+        _mnemonic: "SC",
+        _name: "四川省"
+    },
+    {
+        key: "410000",
+        _mnemonic: "TW",
+        _name: "台湾"
+    },
+    {
+        key: "110000",
+        _mnemonic: "TJ",
+        _name: "天津"
+    },
+    {
+        key: "350000",
+        _mnemonic: "XZ",
+        _name: "西藏自治区"
+    },
+    {
+        key: "420000",
+        _mnemonic: "XG",
+        _name: "香港"
+    },
+    {
+        key: "400000",
+        _mnemonic: "XJ",
+        _name: "新疆维吾尔自治区"
+    },
+    {
+        key: "340000",
+        _mnemonic: "YN",
+        _name: "云南省"
+    },
+    {
+        key: "200000",
+        _mnemonic: "ZJ",
+        _name: "浙江省"
+    },
+    {
+        key: "310000",
+        _mnemonic: "CQ",
+        _name: "重庆"
+    }]
+}
+

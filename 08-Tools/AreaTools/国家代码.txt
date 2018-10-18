@@ -1,0 +1,2289 @@
+{
+    global: {},
+    items: [{
+        key: "0103",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "AL",
+        _firstCode: "A",
+        _name: "阿尔巴尼亚"
+    },
+    {
+        key: "0104",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "DZ",
+        _firstCode: "A",
+        _name: "阿尔及利亚"
+    },
+    {
+        key: "0102",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "AF",
+        _firstCode: "A",
+        _name: "阿富汗"
+    },
+    {
+        key: "0112",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "AR",
+        _firstCode: "A",
+        _name: "阿根廷"
+    },
+    {
+        key: "0503",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "AE",
+        _firstCode: "A",
+        _name: "阿联酋"
+    },
+    {
+        key: "9203",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "AW",
+        _firstCode: "A",
+        _name: "阿鲁巴[荷兰]"
+    },
+    {
+        key: "1501",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "OM",
+        _firstCode: "A",
+        _name: "阿曼"
+    },
+    {
+        key: "0117",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "AZ",
+        _firstCode: "A",
+        _name: "阿塞拜疆"
+    },
+    {
+        key: "9003",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "AC",
+        _firstCode: "A",
+        _name: "阿森松岛[英国]"
+    },
+    {
+        key: "0502",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "EG",
+        _firstCode: "A",
+        _name: "埃及"
+    },
+    {
+        key: "0505",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ET",
+        _firstCode: "A",
+        _name: "埃塞俄比亚"
+    },
+    {
+        key: "0905",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "IE",
+        _firstCode: "A",
+        _name: "爱尔兰"
+    },
+    {
+        key: "0504",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "EE",
+        _firstCode: "A",
+        _name: "爱沙尼亚"
+    },
+    {
+        key: "0105",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "AD",
+        _firstCode: "A",
+        _name: "安道尔"
+    },
+    {
+        key: "0106",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "AO",
+        _firstCode: "A",
+        _name: "安哥拉"
+    },
+    {
+        key: "9002",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "AI",
+        _firstCode: "A",
+        _name: "安圭拉[英国]"
+    },
+    {
+        key: "0110",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "AG",
+        _firstCode: "A",
+        _name: "安提瓜和巴布达"
+    },
+    {
+        key: "0116",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "AT",
+        _firstCode: "A",
+        _name: "奥地利"
+    },
+    {
+        key: "9102",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "AX",
+        _firstCode: "A",
+        _name: "奥兰群岛[芬兰]"
+    },
+    {
+        key: "0115",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "1",
+        _mnemonic: "AU",
+        _firstCode: "A",
+        _name: "澳大利亚"
+    },
+    {
+        key: "1301",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "MO",
+        _firstCode: "A",
+        _name: "澳门 [中国]"
+    },
+    {
+        key: "0204",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BB",
+        _firstCode: "B",
+        _name: "巴巴多斯"
+    },
+    {
+        key: "1604",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "PG",
+        _firstCode: "B",
+        _name: "巴布亚新几内亚"
+    },
+    {
+        key: "0201",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BS",
+        _firstCode: "B",
+        _name: "巴哈马"
+    },
+    {
+        key: "1601",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "PK",
+        _firstCode: "B",
+        _name: "巴基斯坦"
+    },
+    {
+        key: "1605",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "PY",
+        _firstCode: "B",
+        _name: "巴拉圭"
+    },
+    {
+        key: "1602",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "PS",
+        _firstCode: "B",
+        _name: "巴勒斯坦"
+    },
+    {
+        key: "0202",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "BH",
+        _firstCode: "B",
+        _name: "巴林"
+    },
+    {
+        key: "1603",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "PA",
+        _firstCode: "B",
+        _name: "巴拿马"
+    },
+    {
+        key: "0215",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "1",
+        _mnemonic: "BR",
+        _firstCode: "B",
+        _name: "巴西"
+    },
+    {
+        key: "0205",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "BY",
+        _firstCode: "B",
+        _name: "白俄罗斯"
+    },
+    {
+        key: "9004",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BM",
+        _firstCode: "B",
+        _name: "百慕达[英国]"
+    },
+    {
+        key: "0217",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "BG",
+        _firstCode: "B",
+        _name: "保加利亚"
+    },
+    {
+        key: "9804",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "MP",
+        _firstCode: "B",
+        _name: "北马里亚纳群岛"
+    },
+    {
+        key: "0208",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "BJ",
+        _firstCode: "B",
+        _name: "贝宁"
+    },
+    {
+        key: "0206",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "BE",
+        _firstCode: "B",
+        _name: "比利时"
+    },
+    {
+        key: "0901",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "IS",
+        _firstCode: "B",
+        _name: "冰岛"
+    },
+    {
+        key: "9805",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "PR",
+        _firstCode: "B",
+        _name: "波多黎各"
+    },
+    {
+        key: "0212",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "BA",
+        _firstCode: "B",
+        _name: "波黑"
+    },
+    {
+        key: "1608",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "PL",
+        _firstCode: "B",
+        _name: "波兰"
+    },
+    {
+        key: "0211",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BO",
+        _firstCode: "B",
+        _name: "玻利维亚"
+    },
+    {
+        key: "0207",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BZ",
+        _firstCode: "B",
+        _name: "伯利兹"
+    },
+    {
+        key: "0213",
+        _gArea: "32",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "BW",
+        _firstCode: "B",
+        _name: "博茨瓦纳"
+    },
+    {
+        key: "0210",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "BT",
+        _firstCode: "B",
+        _name: "不丹"
+    },
+    {
+        key: "0218",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "BF",
+        _firstCode: "B",
+        _name: "布基纳法索"
+    },
+    {
+        key: "0219",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "BI",
+        _firstCode: "B",
+        _name: "布隆迪"
+    },
+    {
+        key: "9402",
+        _gArea: "60",
+        _gContinent: "6",
+        _isComm: "0",
+        _mnemonic: "BV",
+        _firstCode: "B",
+        _name: "布韦岛"
+    },
+    {
+        key: "1606",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "PE",
+        _firstCode: "B",
+        _name: "秘鲁"
+    },
+    {
+        key: "1106",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "KP",
+        _firstCode: "C",
+        _name: "朝鲜"
+    },
+    {
+        key: "0507",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "GQ",
+        _firstCode: "C",
+        _name: "赤道几内亚"
+    },
+    {
+        key: "0401",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "DK",
+        _firstCode: "D",
+        _name: "丹麦"
+    },
+    {
+        key: "0704",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "1",
+        _mnemonic: "DE",
+        _firstCode: "D",
+        _name: "德国"
+    },
+    {
+        key: "0508",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "TL",
+        _firstCode: "D",
+        _name: "东帝汶"
+    },
+    {
+        key: "2005",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "TG",
+        _firstCode: "D",
+        _name: "多哥"
+    },
+    {
+        key: "0404",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "DO",
+        _firstCode: "D",
+        _name: "多米尼加"
+    },
+    {
+        key: "0403",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "DM",
+        _firstCode: "D",
+        _name: "多米尼克"
+    },
+    {
+        key: "1803",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "1",
+        _mnemonic: "RU",
+        _firstCode: "E",
+        _name: "俄罗斯"
+    },
+    {
+        key: "0501",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "EC",
+        _firstCode: "E",
+        _name: "厄瓜多尔"
+    },
+    {
+        key: "0506",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ER",
+        _firstCode: "E",
+        _name: "厄立特里亚"
+    },
+    {
+        key: "0605",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "1",
+        _mnemonic: "FR",
+        _firstCode: "F",
+        _name: "法国"
+    },
+    {
+        key: "9602",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "FO",
+        _firstCode: "F",
+        _name: "法罗群岛[丹麦]"
+    },
+    {
+        key: "9708",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "PF",
+        _firstCode: "F",
+        _name: "法属波利尼西亚"
+    },
+    {
+        key: "9704",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GF",
+        _firstCode: "F",
+        _name: "法属圭亚那"
+    },
+    {
+        key: "9711",
+        _gArea: "60",
+        _gContinent: "6",
+        _isComm: "0",
+        _mnemonic: "TF",
+        _firstCode: "F",
+        _name: "法属南部和南极领地"
+    },
+    {
+        key: "9706",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "MF",
+        _firstCode: "F",
+        _name: "法属圣马丁"
+    },
+    {
+        key: "2205",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "VA",
+        _firstCode: "F",
+        _name: "梵蒂冈"
+    },
+    {
+        key: "1607",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "PH",
+        _firstCode: "F",
+        _name: "菲律宾"
+    },
+    {
+        key: "0603",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "FJ",
+        _firstCode: "F",
+        _name: "斐济"
+    },
+    {
+        key: "0604",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "FI",
+        _firstCode: "F",
+        _name: "芬兰"
+    },
+    {
+        key: "0306",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "CV",
+        _firstCode: "F",
+        _name: "佛得角"
+    },
+    {
+        key: "9017",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "FK",
+        _firstCode: "F",
+        _name: "福克兰群岛"
+    },
+    {
+        key: "0702",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "GM",
+        _firstCode: "G",
+        _name: "冈比亚"
+    },
+    {
+        key: "0315",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "CG",
+        _firstCode: "G",
+        _name: "刚果共和国"
+    },
+    {
+        key: "0316",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "CD",
+        _firstCode: "G",
+        _name: "刚果民主共和国"
+    },
+    {
+        key: "0313",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "CO",
+        _firstCode: "G",
+        _name: "哥伦比亚"
+    },
+    {
+        key: "0318",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "CR",
+        _firstCode: "G",
+        _name: "哥斯达黎加"
+    },
+    {
+        key: "0709",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GD",
+        _firstCode: "G",
+        _name: "格林纳达[英国]"
+    },
+    {
+        key: "9603",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GL",
+        _firstCode: "G",
+        _name: "格陵兰[丹麦]"
+    },
+    {
+        key: "0703",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "GE",
+        _firstCode: "G",
+        _name: "格鲁吉亚"
+    },
+    {
+        key: "9007",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "GG",
+        _firstCode: "G",
+        _name: "根西岛[英国]"
+    },
+    {
+        key: "0320",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "CU",
+        _firstCode: "G",
+        _name: "古巴"
+    },
+    {
+        key: "9705",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GP",
+        _firstCode: "G",
+        _name: "瓜德罗普"
+    },
+    {
+        key: "9803",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "GU",
+        _firstCode: "G",
+        _name: "关岛"
+    },
+    {
+        key: "0714",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GY",
+        _firstCode: "G",
+        _name: "圭亚那"
+    },
+    {
+        key: "1101",
+        _gArea: "24",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "KZ",
+        _firstCode: "H",
+        _name: "哈萨克斯坦"
+    },
+    {
+        key: "0802",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "HT",
+        _firstCode: "H",
+        _name: "海地"
+    },
+    {
+        key: "1105",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "1",
+        _mnemonic: "KR",
+        _firstCode: "H",
+        _name: "韩国"
+    },
+    {
+        key: "1404",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "NL",
+        _firstCode: "H",
+        _name: "荷兰"
+    },
+    {
+        key: "9202",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "AN",
+        _firstCode: "H",
+        _name: "荷属安的列斯[荷兰]"
+    },
+    {
+        key: "9206",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "SX",
+        _firstCode: "H",
+        _name: "荷属圣马丁"
+    },
+    {
+        key: "9505",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "HM",
+        _firstCode: "H",
+        _name: "赫德岛和麦克唐纳群岛"
+    },
+    {
+        key: "1319",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "ME",
+        _firstCode: "H",
+        _name: "黑山"
+    },
+    {
+        key: "0804",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "HN",
+        _firstCode: "H",
+        _name: "洪都拉斯"
+    },
+    {
+        key: "1104",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "KI",
+        _firstCode: "J",
+        _name: "基里巴斯"
+    },
+    {
+        key: "0402",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "DJ",
+        _firstCode: "J",
+        _name: "吉布提"
+    },
+    {
+        key: "1109",
+        _gArea: "24",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "KG",
+        _firstCode: "J",
+        _name: "吉尔吉斯斯坦"
+    },
+    {
+        key: "0716",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "GW",
+        _firstCode: "J",
+        _name: "几内亚比绍"
+    },
+    {
+        key: "0713",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "GN",
+        _firstCode: "J",
+        _name: "几内亚共和国"
+    },
+    {
+        key: "9204",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BQ",
+        _firstCode: "J",
+        _name: "加勒比荷兰(博奈尔  圣尤斯特歇斯  萨巴)"
+    },
+    {
+        key: "0304",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "1",
+        _mnemonic: "CA",
+        _firstCode: "J",
+        _name: "加拿大"
+    },
+    {
+        key: "0705",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "GH",
+        _firstCode: "J",
+        _name: "加纳"
+    },
+    {
+        key: "0701",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "GA",
+        _firstCode: "J",
+        _name: "加蓬"
+    },
+    {
+        key: "0302",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "KH",
+        _firstCode: "J",
+        _name: "柬埔寨"
+    },
+    {
+        key: "0322",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "CZ",
+        _firstCode: "J",
+        _name: "捷克"
+    },
+    {
+        key: "2602",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ZW",
+        _firstCode: "J",
+        _name: "津巴布韦"
+    },
+    {
+        key: "0303",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "CM",
+        _firstCode: "K",
+        _name: "喀麦隆"
+    },
+    {
+        key: "1701",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "QA",
+        _firstCode: "K",
+        _name: "卡塔尔"
+    },
+    {
+        key: "9005",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "KY",
+        _firstCode: "K",
+        _name: "开曼群岛[英国]"
+    },
+    {
+        key: "9503",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "CC",
+        _firstCode: "K",
+        _name: "科科斯（基林）群岛"
+    },
+    {
+        key: "0314",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "KM",
+        _firstCode: "K",
+        _name: "科摩罗"
+    },
+    {
+        key: "1107",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "YK",
+        _firstCode: "K",
+        _name: "科索沃"
+    },
+    {
+        key: "0312",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "CI",
+        _firstCode: "K",
+        _name: "科特迪瓦"
+    },
+    {
+        key: "1108",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "KW",
+        _firstCode: "K",
+        _name: "科威特"
+    },
+    {
+        key: "0319",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "HR",
+        _firstCode: "K",
+        _name: "克罗地亚"
+    },
+    {
+        key: "1102",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "KE",
+        _firstCode: "K",
+        _name: "肯尼亚"
+    },
+    {
+        key: "0317",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "CK",
+        _firstCode: "K",
+        _name: "库克群岛[新西兰]"
+    },
+    {
+        key: "9205",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "CW",
+        _firstCode: "K",
+        _name: "库拉索"
+    },
+    {
+        key: "1202",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "LV",
+        _firstCode: "L",
+        _name: "拉脱维亚"
+    },
+    {
+        key: "1204",
+        _gArea: "32",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "LS",
+        _firstCode: "L",
+        _name: "莱索托"
+    },
+    {
+        key: "1201",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "LA",
+        _firstCode: "L",
+        _name: "老挝"
+    },
+    {
+        key: "1203",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "LB",
+        _firstCode: "L",
+        _name: "黎巴嫩"
+    },
+    {
+        key: "1208",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "LT",
+        _firstCode: "L",
+        _name: "立陶宛"
+    },
+    {
+        key: "1205",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "LR",
+        _firstCode: "L",
+        _name: "利比里亚"
+    },
+    {
+        key: "1206",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "LY",
+        _firstCode: "L",
+        _name: "利比亚"
+    },
+    {
+        key: "1207",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "LI",
+        _firstCode: "L",
+        _name: "列支敦士登"
+    },
+    {
+        key: "9710",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "RE",
+        _firstCode: "L",
+        _name: "留尼汪"
+    },
+    {
+        key: "1210",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "LU",
+        _firstCode: "L",
+        _name: "卢森堡"
+    },
+    {
+        key: "1804",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "RW",
+        _firstCode: "L",
+        _name: "卢旺达"
+    },
+    {
+        key: "1802",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "RO",
+        _firstCode: "L",
+        _name: "罗马尼亚"
+    },
+    {
+        key: "1303",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "MG",
+        _firstCode: "M",
+        _name: "马达加斯加"
+    },
+    {
+        key: "9011",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "IM",
+        _firstCode: "M",
+        _name: "马恩岛"
+    },
+    {
+        key: "1306",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "MV",
+        _firstCode: "M",
+        _name: "马尔代夫"
+    },
+    {
+        key: "1308",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "MT",
+        _firstCode: "M",
+        _name: "马耳他"
+    },
+    {
+        key: "1304",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "MW",
+        _firstCode: "M",
+        _name: "马拉维"
+    },
+    {
+        key: "1305",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "1",
+        _mnemonic: "MY",
+        _firstCode: "M",
+        _name: "马来西亚"
+    },
+    {
+        key: "1307",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ML",
+        _firstCode: "M",
+        _name: "马里共和国"
+    },
+    {
+        key: "1302",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "MK",
+        _firstCode: "M",
+        _name: "马其顿"
+    },
+    {
+        key: "1310",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "MH",
+        _firstCode: "M",
+        _name: "马绍尔群岛"
+    },
+    {
+        key: "9707",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "MQ",
+        _firstCode: "M",
+        _name: "马提尼克"
+    },
+    {
+        key: "9713",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "YT",
+        _firstCode: "M",
+        _name: "马约特"
+    },
+    {
+        key: "1313",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "MU",
+        _firstCode: "M",
+        _name: "毛里求斯"
+    },
+    {
+        key: "1312",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "MR",
+        _firstCode: "M",
+        _name: "毛里塔尼亚"
+    },
+    {
+        key: "2105",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "1",
+        _mnemonic: "US",
+        _firstCode: "M",
+        _name: "美国"
+    },
+    {
+        key: "9806",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "UM",
+        _firstCode: "M",
+        _name: "美国本土外小岛屿"
+    },
+    {
+        key: "9802",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "AS",
+        _firstCode: "M",
+        _name: "美属萨摩亚"
+    },
+    {
+        key: "9807",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "VI",
+        _firstCode: "M",
+        _name: "美属维尔京群岛"
+    },
+    {
+        key: "1318",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "MN",
+        _firstCode: "M",
+        _name: "蒙古国"
+    },
+    {
+        key: "9013",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "MS",
+        _firstCode: "M",
+        _name: "蒙塞拉特岛"
+    },
+    {
+        key: "0203",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "BD",
+        _firstCode: "M",
+        _name: "孟加拉国"
+    },
+    {
+        key: "1315",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "FM",
+        _firstCode: "M",
+        _name: "密克罗尼西亚联邦"
+    },
+    {
+        key: "1323",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "MM",
+        _firstCode: "M",
+        _name: "缅甸"
+    },
+    {
+        key: "1316",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "MD",
+        _firstCode: "M",
+        _name: "摩尔多瓦"
+    },
+    {
+        key: "1321",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "MA",
+        _firstCode: "M",
+        _name: "摩洛哥"
+    },
+    {
+        key: "1317",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "MC",
+        _firstCode: "M",
+        _name: "摩纳哥"
+    },
+    {
+        key: "1322",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "MZ",
+        _firstCode: "M",
+        _name: "莫桑比克"
+    },
+    {
+        key: "1314",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "MX",
+        _firstCode: "M",
+        _name: "墨西哥"
+    },
+    {
+        key: "1401",
+        _gArea: "32",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "NA",
+        _firstCode: "N",
+        _name: "纳米比亚"
+    },
+    {
+        key: "1932",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "SO",
+        _firstCode: "N",
+        _name: "南奥塞梯"
+    },
+    {
+        key: "1917",
+        _gArea: "32",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ZA",
+        _firstCode: "N",
+        _name: "南非"
+    },
+    {
+        key: "0108",
+        _gArea: "60",
+        _gContinent: "6",
+        _isComm: "0",
+        _mnemonic: "AQ",
+        _firstCode: "N",
+        _name: "南极洲"
+    },
+    {
+        key: "9010",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GS",
+        _firstCode: "N",
+        _name: "南乔治亚和南桑威奇群岛"
+    },
+    {
+        key: "1933",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SS",
+        _firstCode: "N",
+        _name: "南苏丹"
+    },
+    {
+        key: "1402",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "NR",
+        _firstCode: "N",
+        _name: "瑙鲁"
+    },
+    {
+        key: "1403",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "NP",
+        _firstCode: "N",
+        _name: "尼泊尔"
+    },
+    {
+        key: "1407",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "NI",
+        _firstCode: "N",
+        _name: "尼加拉瓜"
+    },
+    {
+        key: "1409",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "NE",
+        _firstCode: "N",
+        _name: "尼日尔"
+    },
+    {
+        key: "1410",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "NG",
+        _firstCode: "N",
+        _name: "尼日利亚"
+    },
+    {
+        key: "9903",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "NU",
+        _firstCode: "N",
+        _name: "纽埃"
+    },
+    {
+        key: "1408",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "NO",
+        _firstCode: "N",
+        _name: "挪威"
+    },
+    {
+        key: "9502",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "NF",
+        _firstCode: "N",
+        _name: "诺福克岛[澳大利亚]"
+    },
+    {
+        key: "1614",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "PW",
+        _firstCode: "P",
+        _name: "帕劳"
+    },
+    {
+        key: "9014",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "PN",
+        _firstCode: "P",
+        _name: "皮特凯恩群岛"
+    },
+    {
+        key: "1610",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "PT",
+        _firstCode: "P",
+        _name: "葡萄牙"
+    },
+    {
+        key: "1002",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "1",
+        _mnemonic: "JP",
+        _firstCode: "R",
+        _name: "日本"
+    },
+    {
+        key: "1924",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "SE",
+        _firstCode: "R",
+        _name: "瑞典"
+    },
+    {
+        key: "1925",
+        _gArea: "13",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "CH",
+        _firstCode: "R",
+        _name: "瑞士"
+    },
+    {
+        key: "1903",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "SV",
+        _firstCode: "S",
+        _name: "萨尔瓦多"
+    },
+    {
+        key: "1909",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "RS",
+        _firstCode: "S",
+        _name: "塞尔维亚"
+    },
+    {
+        key: "1912",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SL",
+        _firstCode: "S",
+        _name: "塞拉利昂"
+    },
+    {
+        key: "1908",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SN",
+        _firstCode: "S",
+        _name: "塞内加尔"
+    },
+    {
+        key: "0321",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "CY",
+        _firstCode: "S",
+        _name: "塞浦路斯"
+    },
+    {
+        key: "1911",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SC",
+        _firstCode: "S",
+        _name: "塞舌尔"
+    },
+    {
+        key: "1907",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "SA",
+        _firstCode: "S",
+        _name: "沙特阿拉伯"
+    },
+    {
+        key: "9703",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "BL",
+        _firstCode: "S",
+        _name: "圣巴泰勒米"
+    },
+    {
+        key: "9504",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "CX",
+        _firstCode: "S",
+        _name: "圣诞岛"
+    },
+    {
+        key: "1906",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ST",
+        _firstCode: "S",
+        _name: "圣多美和普林西比"
+    },
+    {
+        key: "9008",
+        _gArea: "34",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SH",
+        _firstCode: "S",
+        _name: "圣赫勒拿岛[英国]"
+    },
+    {
+        key: "1927",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "KN",
+        _firstCode: "S",
+        _name: "圣基茨和尼维斯"
+    },
+    {
+        key: "1209",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "LC",
+        _firstCode: "S",
+        _name: "圣卢西亚"
+    },
+    {
+        key: "1905",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "SM",
+        _firstCode: "S",
+        _name: "圣马力诺"
+    },
+    {
+        key: "9709",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "PM",
+        _firstCode: "S",
+        _name: "圣皮埃尔和密克隆"
+    },
+    {
+        key: "1902",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "VC",
+        _firstCode: "S",
+        _name: "圣文森特和格林纳丁斯"
+    },
+    {
+        key: "1919",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "LK",
+        _firstCode: "S",
+        _name: "斯里兰卡"
+    },
+    {
+        key: "1914",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "SK",
+        _firstCode: "S",
+        _name: "斯洛伐克"
+    },
+    {
+        key: "1915",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "SI",
+        _firstCode: "S",
+        _name: "斯洛文尼亚"
+    },
+    {
+        key: "9403",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "SJ",
+        _firstCode: "S",
+        _name: "斯瓦尔巴和扬马延"
+    },
+    {
+        key: "1923",
+        _gArea: "32",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SZ",
+        _firstCode: "S",
+        _name: "斯威士兰"
+    },
+    {
+        key: "1920",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SD",
+        _firstCode: "S",
+        _name: "苏丹"
+    },
+    {
+        key: "1930",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "GB",
+        _firstCode: "S",
+        _name: "苏格兰"
+    },
+    {
+        key: "1921",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "SR",
+        _firstCode: "S",
+        _name: "苏里南"
+    },
+    {
+        key: "1916",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "SB",
+        _firstCode: "S",
+        _name: "所罗门群岛"
+    },
+    {
+        key: "1929",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "SO",
+        _firstCode: "S",
+        _name: "索马里"
+    },
+    {
+        key: "2002",
+        _gArea: "24",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "TJ",
+        _firstCode: "T",
+        _name: "塔吉克斯坦"
+    },
+    {
+        key: "2001",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "TW",
+        _firstCode: "T",
+        _name: "台湾 [中国]"
+    },
+    {
+        key: "2004",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "1",
+        _mnemonic: "TH",
+        _firstCode: "T",
+        _name: "泰国"
+    },
+    {
+        key: "2003",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "TZ",
+        _firstCode: "T",
+        _name: "坦桑尼亚"
+    },
+    {
+        key: "2006",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "TO",
+        _firstCode: "T",
+        _name: "汤加"
+    },
+    {
+        key: "9015",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "TC",
+        _firstCode: "T",
+        _name: "特克斯和凯科斯群岛"
+    },
+    {
+        key: "2007",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "TT",
+        _firstCode: "T",
+        _name: "特立尼达和多巴哥"
+    },
+    {
+        key: "2010",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "TN",
+        _firstCode: "T",
+        _name: "突尼斯"
+    },
+    {
+        key: "2009",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "TV",
+        _firstCode: "T",
+        _name: "图瓦卢"
+    },
+    {
+        key: "2011",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "TR",
+        _firstCode: "T",
+        _name: "土耳其"
+    },
+    {
+        key: "2012",
+        _gArea: "24",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "TM",
+        _firstCode: "T",
+        _name: "土库曼斯坦"
+    },
+    {
+        key: "9902",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "TK",
+        _firstCode: "T",
+        _name: "托克劳"
+    },
+    {
+        key: "9712",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "WF",
+        _firstCode: "W",
+        _name: "瓦利斯和富图纳"
+    },
+    {
+        key: "2202",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "VU",
+        _firstCode: "W",
+        _name: "瓦努阿图"
+    },
+    {
+        key: "0712",
+        _gArea: "51",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "GT",
+        _firstCode: "W",
+        _name: "危地马拉"
+    },
+    {
+        key: "2203",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "VE",
+        _firstCode: "W",
+        _name: "委内瑞拉"
+    },
+    {
+        key: "0216",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "BN",
+        _firstCode: "W",
+        _name: "文莱"
+    },
+    {
+        key: "2101",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "UG",
+        _firstCode: "W",
+        _name: "乌干达"
+    },
+    {
+        key: "2102",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "UA",
+        _firstCode: "W",
+        _name: "乌克兰"
+    },
+    {
+        key: "2104",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "UY",
+        _firstCode: "W",
+        _name: "乌拉圭"
+    },
+    {
+        key: "2103",
+        _gArea: "24",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "UZ",
+        _firstCode: "W",
+        _name: "乌兹别克斯坦"
+    },
+    {
+        key: "1918",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "ES",
+        _firstCode: "X",
+        _name: "西班牙"
+    },
+    {
+        key: "2302",
+        _gArea: "35",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "EH",
+        _firstCode: "X",
+        _name: "西撒哈拉"
+    },
+    {
+        key: "1928",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "WS",
+        _firstCode: "X",
+        _name: "西萨摩亚"
+    },
+    {
+        key: "0707",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "GR",
+        _firstCode: "X",
+        _name: "希腊"
+    },
+    {
+        key: "0801",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "HK",
+        _firstCode: "X",
+        _name: "香港 [中国]"
+    },
+    {
+        key: "1913",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "SG",
+        _firstCode: "X",
+        _name: "新加坡"
+    },
+    {
+        key: "9702",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "NC",
+        _firstCode: "X",
+        _name: "新喀里多尼亚[法国]"
+    },
+    {
+        key: "1406",
+        _gArea: "40",
+        _gContinent: "4",
+        _isComm: "0",
+        _mnemonic: "NZ",
+        _firstCode: "X",
+        _name: "新西兰"
+    },
+    {
+        key: "0805",
+        _gArea: "11",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "HU",
+        _firstCode: "X",
+        _name: "匈牙利"
+    },
+    {
+        key: "1926",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "SY",
+        _firstCode: "X",
+        _name: "叙利亚"
+    },
+    {
+        key: "1001",
+        _gArea: "52",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "JM",
+        _firstCode: "Y",
+        _name: "牙买加"
+    },
+    {
+        key: "0113",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "AM",
+        _firstCode: "Y",
+        _name: "亚美尼亚"
+    },
+    {
+        key: "2501",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "YE",
+        _firstCode: "Y",
+        _name: "也门"
+    },
+    {
+        key: "0908",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "IQ",
+        _firstCode: "Y",
+        _name: "伊拉克"
+    },
+    {
+        key: "0904",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "IR",
+        _firstCode: "Y",
+        _name: "伊朗"
+    },
+    {
+        key: "0906",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "IL",
+        _firstCode: "Y",
+        _name: "以色列"
+    },
+    {
+        key: "0907",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "IT",
+        _firstCode: "Y",
+        _name: "意大利"
+    },
+    {
+        key: "0902",
+        _gArea: "22",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "IN",
+        _firstCode: "Y",
+        _name: "印度"
+    },
+    {
+        key: "0903",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "ID",
+        _firstCode: "Y",
+        _name: "印度尼西亚"
+    },
+    {
+        key: "1103",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "1",
+        _mnemonic: "GB",
+        _firstCode: "Y",
+        _name: "英国"
+    },
+    {
+        key: "9016",
+        _gArea: "50",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "VG",
+        _firstCode: "Y",
+        _name: "英属维尔京群岛"
+    },
+    {
+        key: "9012",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "IO",
+        _firstCode: "Y",
+        _name: "英属印度洋领地"
+    },
+    {
+        key: "1003",
+        _gArea: "25",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "JO",
+        _firstCode: "Y",
+        _name: "约旦"
+    },
+    {
+        key: "2204",
+        _gArea: "23",
+        _gContinent: "2",
+        _isComm: "0",
+        _mnemonic: "VN",
+        _firstCode: "Y",
+        _name: "越南"
+    },
+    {
+        key: "2601",
+        _gArea: "31",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "ZM",
+        _firstCode: "Z",
+        _name: "赞比亚"
+    },
+    {
+        key: "9009",
+        _gArea: "14",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "JE",
+        _firstCode: "Z",
+        _name: "泽西岛[英国]"
+    },
+    {
+        key: "0323",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "TD",
+        _firstCode: "Z",
+        _name: "乍得"
+    },
+    {
+        key: "9006",
+        _gArea: "12",
+        _gContinent: "1",
+        _isComm: "0",
+        _mnemonic: "GI",
+        _firstCode: "Z",
+        _name: "直布罗陀[英国]"
+    },
+    {
+        key: "0310",
+        _gArea: "53",
+        _gContinent: "5",
+        _isComm: "0",
+        _mnemonic: "CL",
+        _firstCode: "Z",
+        _name: "智利"
+    },
+    {
+        key: "0308",
+        _gArea: "33",
+        _gContinent: "3",
+        _isComm: "0",
+        _mnemonic: "CF",
+        _firstCode: "Z",
+        _name: "中非共和国"
+    },
+    {
+        key: "0301",
+        _gArea: "21",
+        _gContinent: "2",
+        _isComm: "1",
+        _mnemonic: "CN",
+        _firstCode: "Z",
+        _name: "中国"
+    }]
+}

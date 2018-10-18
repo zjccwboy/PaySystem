@@ -27,6 +27,35 @@
 
   <ItemGroup>
     <Folder Include="Enums\" />
+    <Folder Include="wwwroot\X-admin\.git\objects\info\" />
+    <Folder Include="wwwroot\X-admin\.git\refs\tags\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\X-admin\.git\config" />
+    <None Include="wwwroot\X-admin\.git\description" />
+    <None Include="wwwroot\X-admin\.git\HEAD" />
+    <None Include="wwwroot\X-admin\.git\hooks\applypatch-msg.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\commit-msg.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\fsmonitor-watchman.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\post-update.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\pre-applypatch.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\pre-commit.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\pre-push.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\pre-rebase.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\pre-receive.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\prepare-commit-msg.sample" />
+    <None Include="wwwroot\X-admin\.git\hooks\update.sample" />
+    <None Include="wwwroot\X-admin\.git\index" />
+    <None Include="wwwroot\X-admin\.git\info\exclude" />
+    <None Include="wwwroot\X-admin\.git\logs\HEAD" />
+    <None Include="wwwroot\X-admin\.git\logs\refs\heads\master" />
+    <None Include="wwwroot\X-admin\.git\logs\refs\remotes\origin\HEAD" />
+    <None Include="wwwroot\X-admin\.git\objects\pack\pack-4b272edf357d021166e5e8068409d93b9be01216.idx" />
+    <None Include="wwwroot\X-admin\.git\objects\pack\pack-4b272edf357d021166e5e8068409d93b9be01216.pack" />
+    <None Include="wwwroot\X-admin\.git\packed-refs" />
+    <None Include="wwwroot\X-admin\.git\refs\heads\master" />
+    <None Include="wwwroot\X-admin\.git\refs\remotes\origin\HEAD" />
   </ItemGroup>
 
 </Project>
