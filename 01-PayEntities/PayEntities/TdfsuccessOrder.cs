@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Base.Common.Attritubes;
+using System;
 
 namespace PayEntities
 {
     public class TdfsuccessOrder : BaseEntity
     {
+        [Key]
         public long FoderNum { get; set; }
         public string FmorderNum { get; set; }
         public int Fmid { get; set; }

@@ -1,9 +1,12 @@
 ﻿
 
+using Base.Common.Attritubes;
+
 namespace PayEntities
 {
     public class TpaySetting : BaseEntity
     {
+        [Key]
         public long Id { get; set; }
         public string Fsid { get; set; }
         public string FprivateKey { get; set; }

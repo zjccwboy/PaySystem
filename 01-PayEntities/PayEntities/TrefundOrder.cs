@@ -1,9 +1,10 @@
-﻿
+﻿using Base.Common.Attritubes;
 
 namespace PayEntities
 {
     public class TrefundOrder : BaseEntity
     {
+        [Key]
         public long FoderNum { get; set; }
         public string FmorderNum { get; set; }
         public int Fmid { get; set; }

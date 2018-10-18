@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.PayBll", "04-PayBll\Ba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaySys.Rpository", "02-PayDal\PaySys.Rpository\PaySys.Rpository.csproj", "{3D7EBA8A-C557-4196-AF1E-5A0D74B76431}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Base.WebCore", "00-PayBase\Base.WebCore\Base.WebCore.csproj", "{06688EB7-E438-47C2-B900-777DCE73E195}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{3D7EBA8A-C557-4196-AF1E-5A0D74B76431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D7EBA8A-C557-4196-AF1E-5A0D74B76431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D7EBA8A-C557-4196-AF1E-5A0D74B76431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06688EB7-E438-47C2-B900-777DCE73E195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06688EB7-E438-47C2-B900-777DCE73E195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06688EB7-E438-47C2-B900-777DCE73E195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06688EB7-E438-47C2-B900-777DCE73E195}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +155,7 @@ Global
 		{BDCFF734-9881-40BB-A640-1F7C6EE5020A} = {910EABD8-3146-4541-9F54-B72975E52921}
 		{EA943B8E-8330-4DE7-9194-67FE6D981BCC} = {64B80A6B-9953-46A4-B03A-54A8A855066F}
 		{3D7EBA8A-C557-4196-AF1E-5A0D74B76431} = {910EABD8-3146-4541-9F54-B72975E52921}
+		{06688EB7-E438-47C2-B900-777DCE73E195} = {366C9219-FAC6-4532-A317-0A842177241C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE784A64-1030-4D71-B6A8-A65F99DA9822}

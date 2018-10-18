@@ -8,6 +8,8 @@
     <ProjectReference Include="..\..\00-PayBase\Base.Common\Base.Common.csproj" />
     <ProjectReference Include="..\..\01-PayEntities\PayEntities\PayEntities.csproj" />
     <ProjectReference Include="..\..\02-PayDal\Base.Rpository\Base.Rpository.csproj" />
+    <ProjectReference Include="..\..\02-PayDal\PaySys.Rpository\PaySys.Rpository.csproj" />
+    <ProjectReference Include="..\..\03-PayModels\Admin.PayModel\Admin.PayModel.csproj" />
     <ProjectReference Include="..\Base.PayBll\Base.PayBll.csproj" />
   </ItemGroup>
 

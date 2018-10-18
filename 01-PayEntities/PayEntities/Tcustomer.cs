@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Base.Common.Attritubes;
+using System;
 
 namespace PayEntities
 {
     public class Tcustomer : BaseEntity
     {
+        [Key]
         public long FaccountId { get; set; }
         public int FjobNumber { get; set; }
         public string FfullName { get; set; }

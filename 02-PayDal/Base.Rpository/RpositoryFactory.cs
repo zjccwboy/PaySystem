@@ -5,7 +5,7 @@ namespace Base.Rpository
 {
     public static class RpositoryFactory
     {
-        private static PayContext DbContext { get;}
+        public static PayContext DbContext { get;}
         private static ConcurrentDictionary<Type, IRpository> Rpositorys { get; } = new ConcurrentDictionary<Type, IRpository>();
         static RpositoryFactory()
         {
@@ -14,7 +14,7 @@ namespace Base.Rpository
 
         public static TRpository Create<TRpository>() where TRpository : class,IRpository
         {
-            var type = typeof(IRpository);
+            var type = typeof(TRpository);
             if(!Rpositorys.TryGetValue(type, out IRpository rpository))
             {
                 rpository = (IRpository)Activator.CreateInstance(type, DbContext);

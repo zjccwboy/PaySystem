@@ -1,8 +1,11 @@
 ﻿
+using Base.Common.Attritubes;
+
 namespace PayEntities
 {
     public class Tmerchant : BaseEntity
     {
+        [Key]
         public long FaccountId { get; set; }
         public int FmerchantNumber { get; set; }
         public string FpayeeName { get; set; }
