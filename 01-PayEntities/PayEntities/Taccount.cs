@@ -4,7 +4,7 @@ using Base.Common.Enums;
 
 namespace PayEntities
 {
-    public class Taccount : BaseEntity
+    public class TAccount : BaseEntity
     {
         [Key]
         public long Id { get; set; }

@@ -6,7 +6,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class DFSettingRpository : BaseRpository<Tdfsetting>
+    public class DFSettingRpository : BaseRpository<TDFSetting>
     {
         public DFSettingRpository(PayContext dbContext) : base(dbContext) { }
 

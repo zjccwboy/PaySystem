@@ -6,7 +6,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class DFSuccessOrderRpository : BaseRpository<TdfsuccessOrder>
+    public class DFSuccessOrderRpository : BaseRpository<TDFSuccessOrder>
     {
         public DFSuccessOrderRpository(PayContext dbContext) : base(dbContext) { }
 

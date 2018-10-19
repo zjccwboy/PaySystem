@@ -2,7 +2,7 @@
 
 namespace PayEntities
 {
-    public class TrefundOrder : BaseEntity
+    public class TRefundOrder : BaseEntity
     {
         [Key]
         public long FoderNum { get; set; }

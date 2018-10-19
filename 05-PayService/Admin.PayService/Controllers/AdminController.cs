@@ -25,6 +25,11 @@ namespace Admin.PayService.Controllers
             return View();
         }
 
+        public IActionResult AdminList()
+        {
+            return View();
+        }
+
         public async Task<JsonResult> CreateAdmin(RequestModel<CreateAdminModel> model)
         {
             var result = new ResponseModel{ ResultCode = (int)ResultCode.UnKnowError };
@@ -62,6 +67,5 @@ namespace Admin.PayService.Controllers
             result.ResultCode = (int)resultCode;
             return Json(result);
         }
-
     }
 }

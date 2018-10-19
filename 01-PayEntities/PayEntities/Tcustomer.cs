@@ -3,7 +3,7 @@ using System;
 
 namespace PayEntities
 {
-    public class Tcustomer : BaseEntity
+    public class TCustomer : BaseEntity
     {
         [Key]
         public long FaccountId { get; set; }

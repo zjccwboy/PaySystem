@@ -3,7 +3,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class Tdforder : BaseEntity
+    public class TDFOrder : BaseEntity
     {
         [Key]
         public long ForderNum { get; set; }

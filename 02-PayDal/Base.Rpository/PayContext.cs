@@ -14,24 +14,24 @@ namespace Base.Rpository
         {
         }
 
-        public virtual DbSet<Taccount> Taccount { get; set; }
-        public virtual DbSet<Tadmin> Tadmin { get; set; }
-        public virtual DbSet<TadminLoginLog> TadminLoginLog { get; set; }
-        public virtual DbSet<TadminOperationLog> TadminOperationLog { get; set; }
-        public virtual DbSet<Tcustomer> Tcustomer { get; set; }
-        public virtual DbSet<TcustomerLoginLog> TcustomerLoginLog { get; set; }
-        public virtual DbSet<TdffailureOrder> TdffailureOrder { get; set; }
-        public virtual DbSet<Tdforder> Tdforder { get; set; }
-        public virtual DbSet<Tdfsetting> Tdfsetting { get; set; }
-        public virtual DbSet<TdfsuccessOrder> TdfsuccessOrder { get; set; }
-        public virtual DbSet<TfailureOrder> TfailureOrder { get; set; }
-        public virtual DbSet<Tmerchant> Tmerchant { get; set; }
-        public virtual DbSet<TmerchantChannel> TmerchantChannel { get; set; }
-        public virtual DbSet<TmerchantExtend> TmerchantExtend { get; set; }
-        public virtual DbSet<Torder> Torder { get; set; }
-        public virtual DbSet<TpaySetting> TpaySetting { get; set; }
-        public virtual DbSet<Tpercentage> Tpercentage { get; set; }
-        public virtual DbSet<TrefundOrder> TrefundOrder { get; set; }
+        public virtual DbSet<TAccount> Taccount { get; set; }
+        public virtual DbSet<TAdmin> Tadmin { get; set; }
+        public virtual DbSet<TAdminLoginLog> TadminLoginLog { get; set; }
+        public virtual DbSet<TAdminOperationLog> TadminOperationLog { get; set; }
+        public virtual DbSet<TCustomer> Tcustomer { get; set; }
+        public virtual DbSet<TCustomerLoginLog> TcustomerLoginLog { get; set; }
+        public virtual DbSet<TDFFailureOrder> TdffailureOrder { get; set; }
+        public virtual DbSet<TDFOrder> Tdforder { get; set; }
+        public virtual DbSet<TDFSetting> Tdfsetting { get; set; }
+        public virtual DbSet<TDFSuccessOrder> TdfsuccessOrder { get; set; }
+        public virtual DbSet<TFailureOrder> TfailureOrder { get; set; }
+        public virtual DbSet<TMerchant> Tmerchant { get; set; }
+        public virtual DbSet<TMerchantChannel> TmerchantChannel { get; set; }
+        public virtual DbSet<TMerchantExtend> TmerchantExtend { get; set; }
+        public virtual DbSet<TOrder> Torder { get; set; }
+        public virtual DbSet<TPaySetting> TpaySetting { get; set; }
+        public virtual DbSet<TPercentage> Tpercentage { get; set; }
+        public virtual DbSet<TRefundOrder> TrefundOrder { get; set; }
 
         // Unable to generate entity type for table 'dbo.TSuccessOrder'. Please see the warning messages.
 
@@ -45,7 +45,7 @@ namespace Base.Rpository
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Taccount>(entity =>
+            modelBuilder.Entity<TAccount>(entity =>
             {
                 entity.ToTable("TAccount");
 
@@ -87,7 +87,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tadmin>(entity =>
+            modelBuilder.Entity<TAdmin>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -129,7 +129,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TadminLoginLog>(entity =>
+            modelBuilder.Entity<TAdminLoginLog>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -157,7 +157,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TadminOperationLog>(entity =>
+            modelBuilder.Entity<TAdminOperationLog>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -188,7 +188,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tcustomer>(entity =>
+            modelBuilder.Entity<TCustomer>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -235,7 +235,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TcustomerLoginLog>(entity =>
+            modelBuilder.Entity<TCustomerLoginLog>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -263,7 +263,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TdffailureOrder>(entity =>
+            modelBuilder.Entity<TDFFailureOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
@@ -311,7 +311,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tdforder>(entity =>
+            modelBuilder.Entity<TDFOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
@@ -367,7 +367,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tdfsetting>(entity =>
+            modelBuilder.Entity<TDFSetting>(entity =>
             {
                 entity.ToTable("TDFSetting");
 
@@ -422,7 +422,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TdfsuccessOrder>(entity =>
+            modelBuilder.Entity<TDFSuccessOrder>(entity =>
             {
                 entity.HasKey(e => e.FoderNum);
 
@@ -497,7 +497,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TfailureOrder>(entity =>
+            modelBuilder.Entity<TFailureOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
@@ -545,7 +545,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tmerchant>(entity =>
+            modelBuilder.Entity<TMerchant>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -615,7 +615,7 @@ namespace Base.Rpository
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<TmerchantChannel>(entity =>
+            modelBuilder.Entity<TMerchantChannel>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -650,7 +650,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TmerchantExtend>(entity =>
+            modelBuilder.Entity<TMerchantExtend>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -749,7 +749,7 @@ namespace Base.Rpository
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Torder>(entity =>
+            modelBuilder.Entity<TOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
@@ -805,7 +805,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TpaySetting>(entity =>
+            modelBuilder.Entity<TPaySetting>(entity =>
             {
                 entity.ToTable("TPaySetting");
 
@@ -860,7 +860,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tpercentage>(entity =>
+            modelBuilder.Entity<TPercentage>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
@@ -889,7 +889,7 @@ namespace Base.Rpository
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TrefundOrder>(entity =>
+            modelBuilder.Entity<TRefundOrder>(entity =>
             {
                 entity.HasKey(e => e.FoderNum);
 

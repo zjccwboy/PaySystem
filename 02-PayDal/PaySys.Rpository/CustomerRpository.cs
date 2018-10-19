@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PaySys.Rpository
 {
-    public class CustomerRpository : BaseRpository<Tcustomer>
+    public class CustomerRpository : BaseRpository<TCustomer>
     {
         public CustomerRpository(PayContext dbContext) : base(dbContext) { }
 

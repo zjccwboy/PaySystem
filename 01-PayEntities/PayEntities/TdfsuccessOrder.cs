@@ -3,7 +3,7 @@ using System;
 
 namespace PayEntities
 {
-    public class TdfsuccessOrder : BaseEntity
+    public class TDFSuccessOrder : BaseEntity
     {
         [Key]
         public long FoderNum { get; set; }

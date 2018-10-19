@@ -7,7 +7,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class CustomerLoginLogRpository : BaseRpository<TcustomerLoginLog>
+    public class CustomerLoginLogRpository : BaseRpository<TCustomerLoginLog>
     {
         public CustomerLoginLogRpository(PayContext dbContext) : base(dbContext) { }
     }
