@@ -6,7 +6,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class MerchantChannelRpository : BaseRpository<TMerchantChannel>
+    public class MerchantChannelRpository : BaseRpository<TmerchantChannel>
     {
         public MerchantChannelRpository(PayContext dbContext) : base(dbContext) { }
     }

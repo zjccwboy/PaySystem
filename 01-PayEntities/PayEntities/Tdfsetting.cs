@@ -3,7 +3,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class TDFSetting : BaseEntity
+    public class Tdfsetting : BaseEntity
     {
         [Key]
         public long Id { get; set; }

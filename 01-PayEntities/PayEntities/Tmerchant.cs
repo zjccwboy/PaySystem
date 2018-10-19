@@ -3,7 +3,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class TMerchant : BaseEntity
+    public class Tmerchant : BaseEntity
     {
         [Key]
         public long FaccountId { get; set; }

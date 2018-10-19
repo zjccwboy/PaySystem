@@ -3,7 +3,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class TAdminLoginLog : BaseEntity
+    public class TadminLoginLog : BaseEntity
     {
         [Key]
         public long FaccountId { get; set; }

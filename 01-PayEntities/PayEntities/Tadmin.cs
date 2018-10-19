@@ -3,7 +3,7 @@ using System;
 
 namespace PayEntities
 {
-    public class TAdmin : BaseEntity
+    public class Tadmin : BaseEntity
     {
         [Key]
         public long FaccountId { get; set; }

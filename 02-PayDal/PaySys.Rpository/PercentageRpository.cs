@@ -6,7 +6,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class PercentageRpository : BaseRpository<TPercentage>
+    public class PercentageRpository : BaseRpository<Tpercentage>
     {
         public PercentageRpository(PayContext dbContext) : base(dbContext) { }
     }

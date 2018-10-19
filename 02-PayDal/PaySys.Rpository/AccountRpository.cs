@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace PaySys.Rpository
 {
-    public class AccountRpository : BaseRpository<TAccount>
+    public class AccountRpository : BaseRpository<Taccount>
     {
         public AccountRpository(PayContext dbContext) : base(dbContext) { }
 

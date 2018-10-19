@@ -4,7 +4,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class TDFFailureOrder : BaseEntity
+    public class TdffailureOrder : BaseEntity
     {
         [Key]
         public long ForderNum { get; set; }

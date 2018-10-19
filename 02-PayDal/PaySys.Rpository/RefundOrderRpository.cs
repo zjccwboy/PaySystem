@@ -6,7 +6,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class RefundOrderRpository : BaseRpository<TRefundOrder>
+    public class RefundOrderRpository : BaseRpository<TrefundOrder>
     {
         public RefundOrderRpository(PayContext dbContext) : base(dbContext) { }
     }

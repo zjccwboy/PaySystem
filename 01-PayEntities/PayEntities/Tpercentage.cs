@@ -4,7 +4,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class TPercentage : BaseEntity
+    public class Tpercentage : BaseEntity
     {
         [Key]
         public long FaccountId { get; set; }

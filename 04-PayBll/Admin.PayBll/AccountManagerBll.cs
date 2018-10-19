@@ -35,7 +35,7 @@ namespace Admin.PayBll
                 return result;
             }
 
-            var account = new TAccount
+            var account = new Taccount
             {
                 Fname = model.UserName,
                 Fpassword = model.Password,
@@ -49,7 +49,7 @@ namespace Admin.PayBll
 
             var amax = await this.AdminRpository.GetMaxJobNumber();
             var cmax = await this.CustomerRpository.GetMaxJobNumber();
-            var admin = new TAdmin
+            var admin = new Tadmin
             {
                 FaccountId = account.Id,
                 FjobNumber = JobNumberUtils.GetJobNumber(amax, cmax),

@@ -3,7 +3,7 @@ using System;
 
 namespace PayEntities
 {
-    public class TMerchantExtend : BaseEntity
+    public class TmerchantExtend : BaseEntity
     {
         [Key]
         public long FaccountId { get; set; }

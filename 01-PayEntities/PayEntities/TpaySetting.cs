@@ -4,7 +4,7 @@ using Base.Common.Attritubes;
 
 namespace PayEntities
 {
-    public class TPaySetting : BaseEntity
+    public class TpaySetting : BaseEntity
     {
         [Key]
         public long Id { get; set; }
