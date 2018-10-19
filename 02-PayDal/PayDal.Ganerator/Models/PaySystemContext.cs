@@ -19,6 +19,7 @@ namespace PayDal.Ganerator.Models
         public virtual DbSet<TAdmin> TAdmin { get; set; }
         public virtual DbSet<TAdminLoginLog> TAdminLoginLog { get; set; }
         public virtual DbSet<TAdminOperationLog> TAdminOperationLog { get; set; }
+        public virtual DbSet<TChannelGroup> TChannelGroup { get; set; }
         public virtual DbSet<TCustomer> TCustomer { get; set; }
         public virtual DbSet<TCustomerLoginLog> TCustomerLoginLog { get; set; }
         public virtual DbSet<TDfFailureOrder> TDfFailureOrder { get; set; }
@@ -29,11 +30,13 @@ namespace PayDal.Ganerator.Models
         public virtual DbSet<TMerchant> TMerchant { get; set; }
         public virtual DbSet<TMerchantChannel> TMerchantChannel { get; set; }
         public virtual DbSet<TMerchantExtend> TMerchantExtend { get; set; }
+        public virtual DbSet<TNotifyTicket> TNotifyTicket { get; set; }
         public virtual DbSet<TOrder> TOrder { get; set; }
         public virtual DbSet<TPaySetting> TPaySetting { get; set; }
         public virtual DbSet<TPercentage> TPercentage { get; set; }
         public virtual DbSet<TRefundOrder> TRefundOrder { get; set; }
         public virtual DbSet<TSuccessOrder> TSuccessOrder { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -65,7 +68,7 @@ namespace PayDal.Ganerator.Models
                 entity.Property(e => e.Fname)
                     .IsRequired()
                     .HasColumnName("FName")
-                    .HasMaxLength(20)
+                    .HasMaxLength(50)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Fpassword)
@@ -180,6 +183,38 @@ namespace PayDal.Ganerator.Models
                     .IsUnicode(false);
 
                 entity.Property(e => e.FlogType).HasColumnName("FLogType");
+
+                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
+
+                entity.Property(e => e.FupdateTime)
+                    .HasColumnName("FUpdateTime")
+                    .HasColumnType("datetime");
+            });
+
+            modelBuilder.Entity<TChannelGroup>(entity =>
+            {
+                entity.ToTable("T_ChannelGroup");
+
+                entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.Fchannels)
+                    .HasColumnName("FChannels")
+                    .HasMaxLength(1024)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+
+                entity.Property(e => e.FcreateTime)
+                    .HasColumnName("FCreateTime")
+                    .HasColumnType("datetime");
+
+                entity.Property(e => e.FgroupName)
+                    .IsRequired()
+                    .HasColumnName("FGroupName")
+                    .HasMaxLength(50)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FgroupType).HasColumnName("FGroupType");
 
                 entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
 
@@ -747,6 +782,29 @@ namespace PayDal.Ganerator.Models
                     .HasColumnName("FWithdrawPwd")
                     .HasMaxLength(6)
                     .IsUnicode(false);
+            });
+
+            modelBuilder.Entity<TNotifyTicket>(entity =>
+            {
+                entity.ToTable("T_NotifyTicket");
+
+                entity.Property(e => e.Id).ValueGeneratedNever();
+
+                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+
+                entity.Property(e => e.FcreateTime)
+                    .HasColumnName("FCreateTime")
+                    .HasColumnType("datetime");
+
+                entity.Property(e => e.ForderNum).HasColumnName("FOrderNum");
+
+                entity.Property(e => e.Fstate).HasColumnName("FState");
+
+                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
+
+                entity.Property(e => e.FupdateTime)
+                    .HasColumnName("FUpdateTime")
+                    .HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TOrder>(entity =>
