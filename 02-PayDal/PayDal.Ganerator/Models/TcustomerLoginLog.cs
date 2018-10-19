@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PayEntities
+namespace PayDal.Ganerator.Models
 {
-    public partial class TcustomerLoginLog
+    public partial class TCustomerLoginLog
     {
         public long FaccountId { get; set; }
         public string FloginIp { get; set; }

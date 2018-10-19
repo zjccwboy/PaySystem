@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PayEntities
+namespace PayDal.Ganerator.Models
 {
-    public partial class Taccount
+    public partial class TAccount
     {
         public long Id { get; set; }
         public string Fname { get; set; }

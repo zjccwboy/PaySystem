@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PayEntities
+namespace PayDal.Ganerator.Models
 {
-    public partial class Tdforder
+    public partial class TDfOrder
     {
         public long ForderNum { get; set; }
         public string FmorderNum { get; set; }

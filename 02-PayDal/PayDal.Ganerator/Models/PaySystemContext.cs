@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace PayEntities
+namespace PayDal.Ganerator.Models
 {
     public partial class PaySystemContext : DbContext
     {
@@ -15,26 +15,25 @@ namespace PayEntities
         {
         }
 
-        public virtual DbSet<Taccount> Taccount { get; set; }
-        public virtual DbSet<Tadmin> Tadmin { get; set; }
-        public virtual DbSet<TadminLoginLog> TadminLoginLog { get; set; }
-        public virtual DbSet<TadminOperationLog> TadminOperationLog { get; set; }
-        public virtual DbSet<Tcustomer> Tcustomer { get; set; }
-        public virtual DbSet<TcustomerLoginLog> TcustomerLoginLog { get; set; }
-        public virtual DbSet<TdffailureOrder> TdffailureOrder { get; set; }
-        public virtual DbSet<Tdforder> Tdforder { get; set; }
-        public virtual DbSet<Tdfsetting> Tdfsetting { get; set; }
-        public virtual DbSet<TdfsuccessOrder> TdfsuccessOrder { get; set; }
-        public virtual DbSet<TfailureOrder> TfailureOrder { get; set; }
-        public virtual DbSet<Tmerchant> Tmerchant { get; set; }
-        public virtual DbSet<TmerchantChannel> TmerchantChannel { get; set; }
-        public virtual DbSet<TmerchantExtend> TmerchantExtend { get; set; }
-        public virtual DbSet<Torder> Torder { get; set; }
-        public virtual DbSet<TpaySetting> TpaySetting { get; set; }
-        public virtual DbSet<Tpercentage> Tpercentage { get; set; }
-        public virtual DbSet<TrefundOrder> TrefundOrder { get; set; }
-
-        // Unable to generate entity type for table 'dbo.TSuccessOrder'. Please see the warning messages.
+        public virtual DbSet<TAccount> TAccount { get; set; }
+        public virtual DbSet<TAdmin> TAdmin { get; set; }
+        public virtual DbSet<TAdminLoginLog> TAdminLoginLog { get; set; }
+        public virtual DbSet<TAdminOperationLog> TAdminOperationLog { get; set; }
+        public virtual DbSet<TCustomer> TCustomer { get; set; }
+        public virtual DbSet<TCustomerLoginLog> TCustomerLoginLog { get; set; }
+        public virtual DbSet<TDfFailureOrder> TDfFailureOrder { get; set; }
+        public virtual DbSet<TDfOrder> TDfOrder { get; set; }
+        public virtual DbSet<TDfSetting> TDfSetting { get; set; }
+        public virtual DbSet<TDfSuccessOrder> TDfSuccessOrder { get; set; }
+        public virtual DbSet<TFailureOrder> TFailureOrder { get; set; }
+        public virtual DbSet<TMerchant> TMerchant { get; set; }
+        public virtual DbSet<TMerchantChannel> TMerchantChannel { get; set; }
+        public virtual DbSet<TMerchantExtend> TMerchantExtend { get; set; }
+        public virtual DbSet<TOrder> TOrder { get; set; }
+        public virtual DbSet<TPaySetting> TPaySetting { get; set; }
+        public virtual DbSet<TPercentage> TPercentage { get; set; }
+        public virtual DbSet<TRefundOrder> TRefundOrder { get; set; }
+        public virtual DbSet<TSuccessOrder> TSuccessOrder { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -46,9 +45,9 @@ namespace PayEntities
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Taccount>(entity =>
+            modelBuilder.Entity<TAccount>(entity =>
             {
-                entity.ToTable("TAccount");
+                entity.ToTable("T_Account");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
@@ -66,7 +65,7 @@ namespace PayEntities
                 entity.Property(e => e.Fname)
                     .IsRequired()
                     .HasColumnName("FName")
-                    .HasMaxLength(50)
+                    .HasMaxLength(20)
                     .IsUnicode(false);
 
                 entity.Property(e => e.Fpassword)
@@ -88,11 +87,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tadmin>(entity =>
+            modelBuilder.Entity<TAdmin>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TAdmin");
+                entity.ToTable("T_Admin");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -130,11 +129,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TadminLoginLog>(entity =>
+            modelBuilder.Entity<TAdminLoginLog>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TAdminLoginLog");
+                entity.ToTable("T_AdminLoginLog");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -158,11 +157,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TadminOperationLog>(entity =>
+            modelBuilder.Entity<TAdminOperationLog>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TAdminOperationLog");
+                entity.ToTable("T_AdminOperationLog");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -189,11 +188,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tcustomer>(entity =>
+            modelBuilder.Entity<TCustomer>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TCustomer");
+                entity.ToTable("T_Customer");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -236,11 +235,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TcustomerLoginLog>(entity =>
+            modelBuilder.Entity<TCustomerLoginLog>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TCustomerLoginLog");
+                entity.ToTable("T_CustomerLoginLog");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -264,11 +263,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TdffailureOrder>(entity =>
+            modelBuilder.Entity<TDfFailureOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
-                entity.ToTable("TDFFailureOrder");
+                entity.ToTable("T_DfFailureOrder");
 
                 entity.Property(e => e.ForderNum)
                     .HasColumnName("FOrderNum")
@@ -312,11 +311,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tdforder>(entity =>
+            modelBuilder.Entity<TDfOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
-                entity.ToTable("TDFOrder");
+                entity.ToTable("T_DfOrder");
 
                 entity.Property(e => e.ForderNum)
                     .HasColumnName("FOrderNum")
@@ -368,9 +367,9 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tdfsetting>(entity =>
+            modelBuilder.Entity<TDfSetting>(entity =>
             {
-                entity.ToTable("TDFSetting");
+                entity.ToTable("T_DfSetting");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
@@ -423,11 +422,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TdfsuccessOrder>(entity =>
+            modelBuilder.Entity<TDfSuccessOrder>(entity =>
             {
                 entity.HasKey(e => e.FoderNum);
 
-                entity.ToTable("TDFSuccessOrder");
+                entity.ToTable("T_DfSuccessOrder");
 
                 entity.Property(e => e.FoderNum)
                     .HasColumnName("FOderNum")
@@ -498,11 +497,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TfailureOrder>(entity =>
+            modelBuilder.Entity<TFailureOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
-                entity.ToTable("TFailureOrder");
+                entity.ToTable("T_FailureOrder");
 
                 entity.Property(e => e.ForderNum)
                     .HasColumnName("FOrderNum")
@@ -546,11 +545,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tmerchant>(entity =>
+            modelBuilder.Entity<TMerchant>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TMerchant");
+                entity.ToTable("T_Merchant");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -616,11 +615,11 @@ namespace PayEntities
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<TmerchantChannel>(entity =>
+            modelBuilder.Entity<TMerchantChannel>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TMerchantChannel");
+                entity.ToTable("T_MerchantChannel");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -651,11 +650,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TmerchantExtend>(entity =>
+            modelBuilder.Entity<TMerchantExtend>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TMerchantExtend");
+                entity.ToTable("T_MerchantExtend");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -750,11 +749,11 @@ namespace PayEntities
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Torder>(entity =>
+            modelBuilder.Entity<TOrder>(entity =>
             {
                 entity.HasKey(e => e.ForderNum);
 
-                entity.ToTable("TOrder");
+                entity.ToTable("T_Order");
 
                 entity.Property(e => e.ForderNum)
                     .HasColumnName("FOrderNum")
@@ -806,9 +805,9 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TpaySetting>(entity =>
+            modelBuilder.Entity<TPaySetting>(entity =>
             {
-                entity.ToTable("TPaySetting");
+                entity.ToTable("T_PaySetting");
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
@@ -861,11 +860,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<Tpercentage>(entity =>
+            modelBuilder.Entity<TPercentage>(entity =>
             {
                 entity.HasKey(e => e.FaccountId);
 
-                entity.ToTable("TPercentage");
+                entity.ToTable("T_Percentage");
 
                 entity.Property(e => e.FaccountId)
                     .HasColumnName("FAccountId")
@@ -890,11 +889,11 @@ namespace PayEntities
                     .HasColumnType("datetime");
             });
 
-            modelBuilder.Entity<TrefundOrder>(entity =>
+            modelBuilder.Entity<TRefundOrder>(entity =>
             {
                 entity.HasKey(e => e.FoderNum);
 
-                entity.ToTable("TRefundOrder");
+                entity.ToTable("T_RefundOrder");
 
                 entity.Property(e => e.FoderNum)
                     .HasColumnName("FOderNum")
@@ -927,6 +926,85 @@ namespace PayEntities
                     .HasColumnType("decimal(18, 0)");
 
                 entity.Property(e => e.FrefundType).HasColumnName("FRefundType");
+
+                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
+
+                entity.Property(e => e.FupdateTime)
+                    .HasColumnName("FUpdateTime")
+                    .HasColumnType("datetime");
+            });
+
+            modelBuilder.Entity<TSuccessOrder>(entity =>
+            {
+                entity.HasKey(e => e.FoderNum);
+
+                entity.ToTable("T_SuccessOrder");
+
+                entity.Property(e => e.FoderNum)
+                    .HasColumnName("FOderNum")
+                    .ValueGeneratedNever();
+
+                entity.Property(e => e.FalipayId)
+                    .HasColumnName("FAlipayId")
+                    .HasMaxLength(10)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Famount)
+                    .HasColumnName("FAmount")
+                    .HasColumnType("decimal(18, 0)");
+
+                entity.Property(e => e.FchannelCode)
+                    .IsRequired()
+                    .HasColumnName("FChannelCode")
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+
+                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+
+                entity.Property(e => e.FcreateTime)
+                    .HasColumnName("FCreateTime")
+                    .HasColumnType("datetime");
+
+                entity.Property(e => e.FfromIp)
+                    .HasColumnName("FFromIP")
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FfrozenState).HasColumnName("FFrozenState");
+
+                entity.Property(e => e.FfrozenTime)
+                    .HasColumnName("FFrozenTime")
+                    .HasColumnType("datetime");
+
+                entity.Property(e => e.Fmid).HasColumnName("FMId");
+
+                entity.Property(e => e.FmorderNum)
+                    .IsRequired()
+                    .HasColumnName("FMOrderNum")
+                    .HasMaxLength(64)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.FnotifyState).HasColumnName("FNotifyState");
+
+                entity.Property(e => e.FnotifyUrl)
+                    .IsRequired()
+                    .HasColumnName("FNotifyUrl")
+                    .HasMaxLength(128)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Fpercentage)
+                    .HasColumnName("FPercentage")
+                    .HasColumnType("decimal(18, 0)");
+
+                entity.Property(e => e.FrefundState).HasColumnName("FRefundState");
+
+                entity.Property(e => e.FrefundTime)
+                    .HasColumnName("FRefundTime")
+                    .HasColumnType("datetime");
+
+                entity.Property(e => e.Fstate).HasColumnName("FState");
 
                 entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
 

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PayEntities
+namespace PayDal.Ganerator.Models
 {
-    public partial class Tpercentage
+    public partial class TPercentage
     {
         public long FaccountId { get; set; }
         public decimal Fpercentage { get; set; }

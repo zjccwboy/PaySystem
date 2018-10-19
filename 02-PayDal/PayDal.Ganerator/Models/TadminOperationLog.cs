@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace PayEntities
+namespace PayDal.Ganerator.Models
 {
-    public partial class TadminOperationLog
+    public partial class TAdminOperationLog
     {
         public long FaccountId { get; set; }
         public int FlogType { get; set; }
