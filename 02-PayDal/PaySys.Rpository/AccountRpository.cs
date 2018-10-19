@@ -8,13 +8,13 @@ using System.Linq;
 
 namespace PaySys.Rpository
 {
-    public class AccountRpository : BaseRpository<Taccount>
+    public class AccountRpository : BaseRpository<TAccount>
     {
         public AccountRpository(PayContext dbContext) : base(dbContext) { }
 
         public Task<bool> ExistedAsync(string name)
         {
-            return this.DbContext.Taccount.Where(a => a.Fname == name).ToAsyncEnumerable().Any();
+            return this.DbContext.TAccount.Where(a => a.Fname == name).ToAsyncEnumerable().Any();
         }
 
     }

@@ -8,18 +8,18 @@ using System.Threading.Tasks;
 
 namespace PaySys.Rpository
 {
-    public class AdminRpository : BaseRpository<Tadmin>
+    public class AdminRpository : BaseRpository<TAdmin>
     {
         public AdminRpository(PayContext dbContext) : base(dbContext) { }
 
         public Task<bool> ExistedAsync(long accountId)
         {
-            return this.DbContext.Tadmin.Where(a => a.FaccountId == accountId).ToAsyncEnumerable().Any();
+            return this.DbContext.TAdmin.Where(a => a.FaccountId == accountId).ToAsyncEnumerable().Any();
         }
 
         public Task<int> GetMaxJobNumber()
         {
-            return this.DbContext.Tadmin.Select(a => a.FjobNumber).ToAsyncEnumerable().Max();
+            return this.DbContext.TAdmin.Select(a => a.FjobNumber).ToAsyncEnumerable().Max();
         }
 
     }

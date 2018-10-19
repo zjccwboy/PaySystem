@@ -6,7 +6,7 @@ using PayEntities;
 
 namespace PaySys.Rpository
 {
-    public class AdminOperationLogRpository : BaseRpository<TadminOperationLog>
+    public class AdminOperationLogRpository : BaseRpository<TAdminOperationLog>
     {
         public AdminOperationLogRpository(PayContext dbContext) : base(dbContext) { }
     }
