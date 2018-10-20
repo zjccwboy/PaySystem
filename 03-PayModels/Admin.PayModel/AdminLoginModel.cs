@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Admin.PayModel
 {
-    public class LoginModel : BaseModel
+    public class AdminLoginModel : IRequestModel
     {
         public string UserName { get; set; }
         public string Password { get; set; }

@@ -1,12 +1,14 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TAdminOperationLog : BaseEntity
     {
         [Key]
-        public long FaccountId { get; set; }
-        public int FlogType { get; set; }
-        public string FlogContent { get; set; }
+        public long Id { get; set; }
+        public long? AccountId { get; set; }
+        public int LogType { get; set; }
+        public string LogContent { get; set; }
     }
 }

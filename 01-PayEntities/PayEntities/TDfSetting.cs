@@ -1,17 +1,19 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+
 namespace PayEntities
 {
     public partial class TDfSetting : BaseEntity
     {
         [Key]
         public long Id { get; set; }
-        public string Fsid { get; set; }
-        public string FprivateKey { get; set; }
-        public string FpublicKey { get; set; }
-        public int FpayType { get; set; }
-        public string Femail { get; set; }
-        public string FredirectUrl { get; set; }
-        public string Fextened { get; set; }
-        public string FlastInfo { get; set; }
+        public string Sid { get; set; }
+        public string PrivateKey { get; set; }
+        public string PublicKey { get; set; }
+        public int PayType { get; set; }
+        public string Email { get; set; }
+        public string RedirectUrl { get; set; }
+        public string Extened { get; set; }
+        public string LastInfo { get; set; }
     }
 }

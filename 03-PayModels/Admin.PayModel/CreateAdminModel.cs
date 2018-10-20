@@ -3,7 +3,7 @@ using Base.Common.Enums;
 
 namespace Admin.PayModel
 {
-    public class CreateAdminModel : BaseModel
+    public class CreateAdminModel : IRequestModel
     {
         public string UserName { get; set; }
         public string Password { get; set; }

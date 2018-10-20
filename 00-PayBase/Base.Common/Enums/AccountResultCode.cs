@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Admin.PayModel
+namespace Base.Common.Enums
 {
-    public enum AdminResultCode
+    public enum AccountResultCode
     {
         /// <summary>
         /// 用户明存在
@@ -34,5 +34,21 @@ namespace Admin.PayModel
         /// 账号类型错误
         /// </summary>
         InvalidAccountType = 1006,
+        /// <summary>
+        /// 用户不存在
+        /// </summary>
+        UserNotExist = 1007,
+        /// <summary>
+        /// 密码错误
+        /// </summary>
+        PasswordError = 1008,
+        /// <summary>
+        /// 用户被冻结
+        /// </summary>
+        UserFreezed = 1009,
+        /// <summary>
+        /// 用户被停用
+        /// </summary>
+        UserDisable = 1009,
     }
 }

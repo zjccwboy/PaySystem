@@ -17,6 +17,7 @@
     <ProjectReference Include="..\..\03-PayModels\Admin.PayModel\Admin.PayModel.csproj" />
     <ProjectReference Include="..\..\04-PayBll\Admin.PayBll\Admin.PayBll.csproj" />
     <ProjectReference Include="..\..\04-PayBll\Base.PayBll\Base.PayBll.csproj" />
+    <ProjectReference Include="..\..\04-PayBll\DTO\Admin.DTO\Admin.DTO.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,35 +28,6 @@
 
   <ItemGroup>
     <Folder Include="Enums\" />
-    <Folder Include="wwwroot\UI\.git\objects\info\" />
-    <Folder Include="wwwroot\UI\.git\refs\tags\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\UI\.git\config" />
-    <None Include="wwwroot\UI\.git\description" />
-    <None Include="wwwroot\UI\.git\HEAD" />
-    <None Include="wwwroot\UI\.git\hooks\applypatch-msg.sample" />
-    <None Include="wwwroot\UI\.git\hooks\commit-msg.sample" />
-    <None Include="wwwroot\UI\.git\hooks\fsmonitor-watchman.sample" />
-    <None Include="wwwroot\UI\.git\hooks\post-update.sample" />
-    <None Include="wwwroot\UI\.git\hooks\pre-applypatch.sample" />
-    <None Include="wwwroot\UI\.git\hooks\pre-commit.sample" />
-    <None Include="wwwroot\UI\.git\hooks\pre-push.sample" />
-    <None Include="wwwroot\UI\.git\hooks\pre-rebase.sample" />
-    <None Include="wwwroot\UI\.git\hooks\pre-receive.sample" />
-    <None Include="wwwroot\UI\.git\hooks\prepare-commit-msg.sample" />
-    <None Include="wwwroot\UI\.git\hooks\update.sample" />
-    <None Include="wwwroot\UI\.git\index" />
-    <None Include="wwwroot\UI\.git\info\exclude" />
-    <None Include="wwwroot\UI\.git\logs\HEAD" />
-    <None Include="wwwroot\UI\.git\logs\refs\heads\master" />
-    <None Include="wwwroot\UI\.git\logs\refs\remotes\origin\HEAD" />
-    <None Include="wwwroot\UI\.git\objects\pack\pack-4b272edf357d021166e5e8068409d93b9be01216.idx" />
-    <None Include="wwwroot\UI\.git\objects\pack\pack-4b272edf357d021166e5e8068409d93b9be01216.pack" />
-    <None Include="wwwroot\UI\.git\packed-refs" />
-    <None Include="wwwroot\UI\.git\refs\heads\master" />
-    <None Include="wwwroot\UI\.git\refs\remotes\origin\HEAD" />
   </ItemGroup>
 
 </Project>

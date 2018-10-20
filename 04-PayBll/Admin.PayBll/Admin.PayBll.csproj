@@ -11,6 +11,7 @@
     <ProjectReference Include="..\..\02-PayDal\PaySys.Rpository\PaySys.Rpository.csproj" />
     <ProjectReference Include="..\..\03-PayModels\Admin.PayModel\Admin.PayModel.csproj" />
     <ProjectReference Include="..\Base.PayBll\Base.PayBll.csproj" />
+    <ProjectReference Include="..\DTO\Admin.DTO\Admin.DTO.csproj" />
   </ItemGroup>
 
 </Project>

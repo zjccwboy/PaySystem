@@ -1,13 +1,14 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TMerchantChannel : BaseEntity
     {
         [Key]
-        public long FaccountId { get; set; }
-        public int Fmid { get; set; }
-        public string Fchannels { get; set; }
-        public string FchannelGroups { get; set; }
+        public long AccountId { get; set; }
+        public int Mid { get; set; }
+        public string Channels { get; set; }
+        public string ChannelGroups { get; set; }
     }
 }

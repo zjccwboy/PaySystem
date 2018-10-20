@@ -1,11 +1,13 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TCustomerLoginLog : BaseEntity
     {
         [Key]
-        public long FaccountId { get; set; }
-        public string FloginIp { get; set; }
+        public long Id { get; set; }
+        public long? AccountId { get; set; }
+        public string LoginIp { get; set; }
     }
 }

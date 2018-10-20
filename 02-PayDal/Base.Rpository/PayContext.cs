@@ -5,13 +5,15 @@ namespace Base.Rpository
 {
     public class PayContext : DbContext
     {
-        public PayContext()
+        protected PayContext()
         {
         }
 
         public PayContext(DbContextOptions<PayContext> options)
             : base(options)
         {
+            var bilder = new DbContextOptionsBuilder(options);
+            bilder.UseSqlServer(DbConfig.DbConnectingString);
         }
 
         public virtual DbSet<TAccount> TAccount { get; set; }
@@ -36,10 +38,9 @@ namespace Base.Rpository
         public virtual DbSet<TRefundOrder> TRefundOrder { get; set; }
         public virtual DbSet<TSuccessOrder> TSuccessOrder { get; set; }
 
-
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            if (optionsBuilder.IsConfigured)
+            if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(DbConfig.DbConnectingString);
             }
@@ -53,141 +54,80 @@ namespace Base.Rpository
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Femai)
-                    .HasColumnName("FEmai")
+                entity.Property(e => e.Emai)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fname)
+                entity.Property(e => e.Name)
                     .IsRequired()
-                    .HasColumnName("FName")
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fpassword)
+                entity.Property(e => e.Password)
                     .IsRequired()
-                    .HasColumnName("FPassword")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FsecretAnswer).HasColumnName("FSecretAnswer");
-
-                entity.Property(e => e.FsecretProblem).HasColumnName("FSecretProblem");
-
-                entity.Property(e => e.Ftype).HasColumnName("FType");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TAdmin>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
+                entity.HasKey(e => e.AccountId);
 
                 entity.ToTable("T_Admin");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.AccountId).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfirstLoginIp)
-                    .HasColumnName("FFirstLoginIp")
+                entity.Property(e => e.FirstLoginIp)
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FfirstLoginTime)
-                    .HasColumnName("FFirstLoginTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.FirstLoginTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FjobNumber).HasColumnName("FJobNumber");
-
-                entity.Property(e => e.FlastLoginIp)
+                entity.Property(e => e.LastLoginIp)
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlastLoginTime)
-                    .HasColumnName("FLastLoginTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.LastLoginTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TAdminLoginLog>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
-
                 entity.ToTable("T_AdminLoginLog");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FloginIp)
-                    .HasColumnName("FLoginIP")
+                entity.Property(e => e.LoginIp)
+                    .HasColumnName("LoginIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TAdminOperationLog>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
-
                 entity.ToTable("T_AdminOperationLog");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FlogContent)
+                entity.Property(e => e.LogContent)
                     .IsRequired()
-                    .HasColumnName("FLogContent")
                     .HasMaxLength(1024)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlogType).HasColumnName("FLogType");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TChannelGroup>(entity =>
@@ -196,209 +136,134 @@ namespace Base.Rpository
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.Fchannels)
-                    .HasColumnName("FChannels")
+                entity.Property(e => e.Channels)
                     .HasMaxLength(1024)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FgroupName)
+                entity.Property(e => e.GroupName)
                     .IsRequired()
-                    .HasColumnName("FGroupName")
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FgroupType).HasColumnName("FGroupType");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TCustomer>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
+                entity.HasKey(e => e.AccountId);
 
                 entity.ToTable("T_Customer");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.AccountId).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfirstLoginIp)
-                    .HasColumnName("FFirstLoginIp")
+                entity.Property(e => e.FirstLoginIp)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FfirstLoginTime)
-                    .HasColumnName("FFirstLoginTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.FirstLoginTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FfullName)
-                    .HasColumnName("FFullName")
-                    .HasMaxLength(10);
+                entity.Property(e => e.FullName).HasMaxLength(10);
 
-                entity.Property(e => e.FjobNumber).HasColumnName("FJobNumber");
+                entity.Property(e => e.UpdateBy).HasColumnName("FUpdateBy");
 
-                entity.Property(e => e.FlastLoginIp)
-                    .HasColumnName("FLastLoginIp")
+                entity.Property(e => e.LastLoginIp)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlastLoginTime)
-                    .HasColumnName("FLastLoginTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.LastLoginTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TCustomerLoginLog>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
-
                 entity.ToTable("T_CustomerLoginLog");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FloginIp)
-                    .HasColumnName("FLoginIP")
+                entity.Property(e => e.LoginIp)
+                    .HasColumnName("LoginIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TDfFailureOrder>(entity =>
             {
-                entity.HasKey(e => e.ForderNum);
+                entity.HasKey(e => e.OrderNum);
 
                 entity.ToTable("T_DfFailureOrder");
 
-                entity.Property(e => e.ForderNum)
-                    .HasColumnName("FOrderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OrderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FchannelCode)
+                entity.Property(e => e.ChannelCode)
                     .IsRequired()
-                    .HasColumnName("FChannelCode")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
-
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfromIp)
-                    .HasColumnName("FFromIP")
+                entity.Property(e => e.FromIp)
+                    .HasColumnName("FromIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TDfOrder>(entity =>
             {
-                entity.HasKey(e => e.ForderNum);
+                entity.HasKey(e => e.OrderNum);
 
                 entity.ToTable("T_DfOrder");
 
-                entity.Property(e => e.ForderNum)
-                    .HasColumnName("FOrderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OrderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FchannelCode)
+                entity.Property(e => e.ChannelCode)
                     .IsRequired()
-                    .HasColumnName("FChannelCode")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
-
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfromIp)
-                    .HasColumnName("FFromIP")
+                entity.Property(e => e.FromIp)
+                    .HasColumnName("FromIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FnotifyUrl)
+                entity.Property(e => e.NotifyUrl)
                     .IsRequired()
-                    .HasColumnName("FNotifyUrl")
                     .HasMaxLength(128)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fstate).HasColumnName("FState");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TDfSetting>(entity =>
@@ -407,378 +272,253 @@ namespace Base.Rpository
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Femail)
-                    .HasColumnName("FEmail")
+                entity.Property(e => e.Email)
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fextened)
-                    .HasColumnName("FExtened")
+                entity.Property(e => e.Extened)
                     .HasMaxLength(256)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlastInfo)
-                    .HasColumnName("FLastInfo")
-                    .IsUnicode(false);
+                entity.Property(e => e.LastInfo).IsUnicode(false);
 
-                entity.Property(e => e.FpayType).HasColumnName("FPayType");
-
-                entity.Property(e => e.FprivateKey)
-                    .HasColumnName("FPrivateKey")
+                entity.Property(e => e.PrivateKey)
                     .HasMaxLength(2048)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FpublicKey)
-                    .HasColumnName("FPublicKey")
+                entity.Property(e => e.PublicKey)
                     .HasMaxLength(1024)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FredirectUrl)
-                    .HasColumnName("FRedirectUrl")
+                entity.Property(e => e.RedirectUrl)
                     .HasMaxLength(256)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fsid)
-                    .HasColumnName("FSId")
+                entity.Property(e => e.Sid)
+                    .HasColumnName("SId")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TDfSuccessOrder>(entity =>
             {
-                entity.HasKey(e => e.FoderNum);
+                entity.HasKey(e => e.OderNum);
 
                 entity.ToTable("T_DfSuccessOrder");
 
-                entity.Property(e => e.FoderNum)
-                    .HasColumnName("FOderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.FalipayId)
-                    .HasColumnName("FAlipayId")
+                entity.Property(e => e.AlipayId)
                     .HasMaxLength(10)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FchannelCode)
+                entity.Property(e => e.ChannelCode)
                     .IsRequired()
-                    .HasColumnName("FChannelCode")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
-
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfromIp)
-                    .HasColumnName("FFromIP")
+                entity.Property(e => e.FromIp)
+                    .HasColumnName("FromIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FfrozenState).HasColumnName("FFrozenState");
+                entity.Property(e => e.FrozenTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FfrozenTime)
-                    .HasColumnName("FFrozenTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
-
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FnotifyState).HasColumnName("FNotifyState");
-
-                entity.Property(e => e.FnotifyUrl)
+                entity.Property(e => e.NotifyUrl)
                     .IsRequired()
-                    .HasColumnName("FNotifyUrl")
                     .HasMaxLength(128)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fpercentage)
-                    .HasColumnName("FPercentage")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Percentage).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FrefundState).HasColumnName("FRefundState");
-
-                entity.Property(e => e.Fstate).HasColumnName("FState");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TFailureOrder>(entity =>
             {
-                entity.HasKey(e => e.ForderNum);
+                entity.HasKey(e => e.OrderNum);
 
                 entity.ToTable("T_FailureOrder");
 
-                entity.Property(e => e.ForderNum)
-                    .HasColumnName("FOrderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OrderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FchannelCode)
+                entity.Property(e => e.ChannelCode)
                     .IsRequired()
-                    .HasColumnName("FChannelCode")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
-
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
-
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfromIp)
-                    .HasColumnName("FFromIP")
-                    .HasMaxLength(20)
-                    .IsUnicode(false);
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
                 entity.Property(e => e.Fmid).HasColumnName("FMId");
 
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.FromIp)
+                    .HasColumnName("FromIP")
+                    .HasMaxLength(20)
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TMerchant>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
+                entity.HasKey(e => e.AccountId);
 
                 entity.ToTable("T_Merchant");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.AccountId).ValueGeneratedNever();
 
-                entity.Property(e => e.FamountTotal)
-                    .HasColumnName("FAmountTotal")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.AmountTotal).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FbankAddress)
-                    .HasColumnName("FBankAddress")
+                entity.Property(e => e.BankAddress)
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FbankCard)
-                    .HasColumnName("FBankCard")
+                entity.Property(e => e.BankCard)
                     .HasMaxLength(18)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FbankName)
-                    .HasColumnName("FBankName")
-                    .HasMaxLength(20);
+                entity.Property(e => e.BankName).HasMaxLength(20);
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.DfuserGroup).HasColumnName("DFUserGroup");
 
-                entity.Property(e => e.FdfuserGroup).HasColumnName("FDFUserGroup");
+                entity.Property(e => e.PayeeName).HasMaxLength(20);
 
-                entity.Property(e => e.FmerchantNumber).HasColumnName("FMerchantNumber");
-
-                entity.Property(e => e.FpayeeName)
-                    .HasColumnName("FPayeeName")
-                    .HasMaxLength(20);
-
-                entity.Property(e => e.FrecvNotifyUrl)
-                    .HasColumnName("FRecvNotifyUrl")
+                entity.Property(e => e.RecvNotifyUrl)
                     .HasMaxLength(256)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Frsa2key)
+                entity.Property(e => e.Rsa2key)
                     .IsRequired()
-                    .HasColumnName("FRSA2Key")
+                    .HasColumnName("RSA2Key")
                     .HasMaxLength(2048)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fstate).HasColumnName("FState");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FsyncJumpUrl).HasColumnName("FSyncJumpUrl");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FwithdrawPwd)
+                entity.Property(e => e.WithdrawPwd)
                     .IsRequired()
-                    .HasColumnName("FWithdrawPwd")
                     .HasMaxLength(6)
                     .IsUnicode(false);
             });
 
             modelBuilder.Entity<TMerchantChannel>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
+                entity.HasKey(e => e.AccountId);
 
                 entity.ToTable("T_MerchantChannel");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.AccountId).ValueGeneratedNever();
 
-                entity.Property(e => e.FchannelGroups)
-                    .HasColumnName("FChannelGroups")
+                entity.Property(e => e.ChannelGroups)
                     .HasMaxLength(256)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fchannels)
-                    .HasColumnName("FChannels")
+                entity.Property(e => e.Channels)
                     .HasMaxLength(1024)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Fmid).HasColumnName("FMid");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TMerchantExtend>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
+                entity.HasKey(e => e.AccountId);
 
                 entity.ToTable("T_MerchantExtend");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.AccountId).ValueGeneratedNever();
 
-                entity.Property(e => e.Faddress)
-                    .HasColumnName("FAddress")
-                    .HasMaxLength(128);
+                entity.Property(e => e.Address).HasMaxLength(128);
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.FullName).HasMaxLength(20);
 
-                entity.Property(e => e.FfullName)
-                    .HasColumnName("FFullName")
-                    .HasMaxLength(20);
-
-                entity.Property(e => e.FgoogleSecretKey)
-                    .HasColumnName("FGoogleSecretKey")
+                entity.Property(e => e.GoogleSecretKey)
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FidCard)
-                    .HasColumnName("FId_card")
+                entity.Property(e => e.IdCard)
+                    .HasColumnName("Id_Card")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlastLoginIp)
-                    .HasColumnName("FLastLoginIp")
+                entity.Property(e => e.LastLoginIp)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlastLoginTime)
-                    .HasColumnName("FLastLoginTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.LastLoginTime).HasColumnType("datetime");
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.Fmname)
+                entity.Property(e => e.Mname)
                     .IsRequired()
-                    .HasColumnName("FMName")
+                    .HasColumnName("MName")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fmobile)
-                    .HasColumnName("FMobile")
+                entity.Property(e => e.Mobile)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fmsn)
-                    .HasColumnName("FMSN")
+                entity.Property(e => e.Msn)
+                    .HasColumnName("MSN")
                     .HasMaxLength(32)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fphone)
-                    .HasColumnName("FPhone")
+                entity.Property(e => e.Phone)
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fpostcode)
-                    .HasColumnName("FPostcode")
+                entity.Property(e => e.Postcode)
                     .HasMaxLength(8)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fqq)
-                    .HasColumnName("FQQ")
+                entity.Property(e => e.Qq)
+                    .HasColumnName("QQ")
                     .HasMaxLength(16)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fremark)
-                    .HasColumnName("FRemark")
+                entity.Property(e => e.Remark)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FstieUrl)
-                    .HasColumnName("FStieUrl")
+                entity.Property(e => e.StieUrl)
                     .HasMaxLength(128)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FwithdrawPwd)
+                entity.Property(e => e.WithdrawPwd)
                     .IsRequired()
-                    .HasColumnName("FWithdrawPwd")
                     .HasMaxLength(6)
                     .IsUnicode(false);
             });
@@ -789,77 +529,47 @@ namespace Base.Rpository
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.ForderNum).HasColumnName("FOrderNum");
-
-                entity.Property(e => e.Fstate).HasColumnName("FState");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TOrder>(entity =>
             {
-                entity.HasKey(e => e.ForderNum);
+                entity.HasKey(e => e.OrderNum);
 
                 entity.ToTable("T_Order");
 
-                entity.Property(e => e.ForderNum)
-                    .HasColumnName("FOrderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OrderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FchannelCode)
+                entity.Property(e => e.ChannelCode)
                     .IsRequired()
-                    .HasColumnName("FChannelCode")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
-
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfromIp)
-                    .HasColumnName("FFromIP")
+                entity.Property(e => e.FromIp)
+                    .HasColumnName("FromIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FnotifyUrl)
+                entity.Property(e => e.NotifyUrl)
                     .IsRequired()
-                    .HasColumnName("FNotifyUrl")
                     .HasMaxLength(128)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fstate).HasColumnName("FState");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TPaySetting>(entity =>
@@ -868,206 +578,126 @@ namespace Base.Rpository
 
                 entity.Property(e => e.Id).ValueGeneratedNever();
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Femail)
-                    .HasColumnName("FEmail")
+                entity.Property(e => e.Email)
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fextened)
-                    .HasColumnName("FExtened")
+                entity.Property(e => e.Extened)
                     .HasMaxLength(50)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FlastInfo)
-                    .HasColumnName("FLastInfo")
-                    .IsUnicode(false);
+                entity.Property(e => e.LastInfo).IsUnicode(false);
 
-                entity.Property(e => e.FpayType).HasColumnName("FPayType");
-
-                entity.Property(e => e.FprivateKey)
-                    .HasColumnName("FPrivateKey")
+                entity.Property(e => e.PrivateKey)
                     .HasMaxLength(2048)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FpublicKey)
-                    .HasColumnName("FPublicKey")
+                entity.Property(e => e.PublicKey)
                     .HasMaxLength(1024)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FredirectUrl)
-                    .HasColumnName("FRedirectUrl")
+                entity.Property(e => e.RedirectUrl)
                     .HasMaxLength(256)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fsid)
-                    .HasColumnName("FSId")
+                entity.Property(e => e.Sid)
+                    .HasColumnName("SId")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TPercentage>(entity =>
             {
-                entity.HasKey(e => e.FaccountId);
+                entity.HasKey(e => e.AccountId);
 
                 entity.ToTable("T_Percentage");
 
-                entity.Property(e => e.FaccountId)
-                    .HasColumnName("FAccountId")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.AccountId).ValueGeneratedNever();
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.Percentage).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Fpercentage)
-                    .HasColumnName("FPercentage")
-                    .HasColumnType("decimal(18, 0)");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TRefundOrder>(entity =>
             {
-                entity.HasKey(e => e.FoderNum);
+                entity.HasKey(e => e.OderNum);
 
                 entity.ToTable("T_RefundOrder");
 
-                entity.Property(e => e.FoderNum)
-                    .HasColumnName("FOderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
-
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FrefundAmount)
-                    .HasColumnName("FRefundAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.RefundAmount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FrefundCharge)
-                    .HasColumnName("FRefundCharge")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.RefundCharge).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FrefundType).HasColumnName("FRefundType");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
 
             modelBuilder.Entity<TSuccessOrder>(entity =>
             {
-                entity.HasKey(e => e.FoderNum);
+                entity.HasKey(e => e.OderNum);
 
                 entity.ToTable("T_SuccessOrder");
 
-                entity.Property(e => e.FoderNum)
-                    .HasColumnName("FOderNum")
-                    .ValueGeneratedNever();
+                entity.Property(e => e.OderNum).ValueGeneratedNever();
 
-                entity.Property(e => e.FalipayId)
-                    .HasColumnName("FAlipayId")
+                entity.Property(e => e.AlipayId)
                     .HasMaxLength(10)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Famount)
-                    .HasColumnName("FAmount")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Amount).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FchannelCode)
+                entity.Property(e => e.ChannelCode)
                     .IsRequired()
-                    .HasColumnName("FChannelCode")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FchannelType).HasColumnName("FChannelType");
+                entity.Property(e => e.CreateTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FcreateBy).HasColumnName("FCreateBy");
-
-                entity.Property(e => e.FcreateTime)
-                    .HasColumnName("FCreateTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.FfromIp)
-                    .HasColumnName("FFromIP")
+                entity.Property(e => e.FromIp)
+                    .HasColumnName("FromIP")
                     .HasMaxLength(20)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FfrozenState).HasColumnName("FFrozenState");
+                entity.Property(e => e.FrozenTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FfrozenTime)
-                    .HasColumnName("FFrozenTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.Mid).HasColumnName("MId");
 
-                entity.Property(e => e.Fmid).HasColumnName("FMId");
-
-                entity.Property(e => e.FmorderNum)
+                entity.Property(e => e.Mnum)
                     .IsRequired()
-                    .HasColumnName("FMOrderNum")
+                    .HasColumnName("MNum")
                     .HasMaxLength(64)
                     .IsUnicode(false);
 
-                entity.Property(e => e.FnotifyState).HasColumnName("FNotifyState");
-
-                entity.Property(e => e.FnotifyUrl)
+                entity.Property(e => e.NotifyUrl)
                     .IsRequired()
-                    .HasColumnName("FNotifyUrl")
                     .HasMaxLength(128)
                     .IsUnicode(false);
 
-                entity.Property(e => e.Fpercentage)
-                    .HasColumnName("FPercentage")
-                    .HasColumnType("decimal(18, 0)");
+                entity.Property(e => e.Percentage).HasColumnType("decimal(18, 0)");
 
-                entity.Property(e => e.FrefundState).HasColumnName("FRefundState");
+                entity.Property(e => e.RefundTime).HasColumnType("datetime");
 
-                entity.Property(e => e.FrefundTime)
-                    .HasColumnName("FRefundTime")
-                    .HasColumnType("datetime");
-
-                entity.Property(e => e.Fstate).HasColumnName("FState");
-
-                entity.Property(e => e.FupdateBy).HasColumnName("FUpdateBy");
-
-                entity.Property(e => e.FupdateTime)
-                    .HasColumnName("FUpdateTime")
-                    .HasColumnType("datetime");
+                entity.Property(e => e.UpdateTime).HasColumnType("datetime");
             });
         }
     }

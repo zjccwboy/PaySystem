@@ -1,10 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using Base.Rpository;
 
 namespace Base.PayBll
 {
     public interface IPayBll
     {
-        DbContext DbContext { get;}
+        PayContext DbContext { get;}
     }
 }

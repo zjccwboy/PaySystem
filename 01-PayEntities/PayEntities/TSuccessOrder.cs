@@ -1,25 +1,26 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TSuccessOrder : BaseEntity
     {
         [Key]
-        public long FoderNum { get; set; }
-        public string FmorderNum { get; set; }
-        public int Fmid { get; set; }
-        public bool Fstate { get; set; }
-        public string FfromIp { get; set; }
-        public int FchannelType { get; set; }
-        public string FchannelCode { get; set; }
-        public decimal Famount { get; set; }
-        public bool FnotifyState { get; set; }
-        public string FnotifyUrl { get; set; }
-        public string FalipayId { get; set; }
-        public decimal Fpercentage { get; set; }
-        public DateTime? FfrozenTime { get; set; }
-        public int FfrozenState { get; set; }
-        public int FrefundState { get; set; }
-        public DateTime? FrefundTime { get; set; }
+        public long OderNum { get; set; }
+        public string Mnum { get; set; }
+        public int Mid { get; set; }
+        public bool State { get; set; }
+        public string FromIp { get; set; }
+        public int ChannelType { get; set; }
+        public string ChannelCode { get; set; }
+        public decimal Amount { get; set; }
+        public bool NotifyState { get; set; }
+        public string NotifyUrl { get; set; }
+        public string AlipayId { get; set; }
+        public decimal Percentage { get; set; }
+        public DateTime? FrozenTime { get; set; }
+        public int FrozenState { get; set; }
+        public int RefundState { get; set; }
+        public DateTime? RefundTime { get; set; }
     }
 }

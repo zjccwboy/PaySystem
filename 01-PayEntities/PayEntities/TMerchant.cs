@@ -1,22 +1,23 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TMerchant : BaseEntity
     {
         [Key]
-        public long FaccountId { get; set; }
-        public int FmerchantNumber { get; set; }
-        public string FpayeeName { get; set; }
-        public string FbankName { get; set; }
-        public string FbankCard { get; set; }
-        public string FbankAddress { get; set; }
-        public decimal FamountTotal { get; set; }
-        public int? Fstate { get; set; }
-        public string FwithdrawPwd { get; set; }
-        public string Frsa2key { get; set; }
-        public string FrecvNotifyUrl { get; set; }
-        public bool FsyncJumpUrl { get; set; }
-        public int FdfuserGroup { get; set; }
+        public long AccountId { get; set; }
+        public int Mid { get; set; }
+        public string PayeeName { get; set; }
+        public string BankName { get; set; }
+        public string BankCard { get; set; }
+        public string BankAddress { get; set; }
+        public decimal AmountTotal { get; set; }
+        public int? State { get; set; }
+        public string WithdrawPwd { get; set; }
+        public string Rsa2key { get; set; }
+        public string RecvNotifyUrl { get; set; }
+        public bool SyncJumpUrl { get; set; }
+        public int DfuserGroup { get; set; }
     }
 }

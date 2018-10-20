@@ -9,7 +9,7 @@ namespace Base.Common.Enums
         /// <summary>
         /// 未知错误
         /// </summary>
-        UnKnowError = -1,
+        UnknownError = -1,
         /// <summary>
         /// 成功
         /// </summary>

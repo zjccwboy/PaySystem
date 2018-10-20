@@ -30,7 +30,7 @@ namespace Base.WebCore.Filter
             context.Exception,
             context.Exception.Message);
 
-            var json = new ResponseModel() { Message = "未知错误,请重试", ResultCode = (int)ResultCode.UnKnowError };
+            var json = new ResponseModel() { Message = "未知错误,请重试", ResultCode = (int)ResultCode.UnknownError };
             if (_env.IsDevelopment()) json.DeveloperMessage = context.Exception;
 
             context.Result = new ApplicationErrorResult(json);

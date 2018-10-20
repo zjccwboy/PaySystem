@@ -1,22 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Newtonsoft.Json;
 using System;
 
 namespace Base.WebCore.WebApi
 {
     public class APIController : ControllerBase
     {
-        public class ActionFilter : IActionFilter
+        public static JsonSerializerSettings JsonSettings = new JsonSerializerSettings
         {
-            public void OnActionExecuted(ActionExecutedContext context)
-            {
-                Console.WriteLine("action执行之后");
-            }
-
-            public void OnActionExecuting(ActionExecutingContext context)
-            {
-                Console.WriteLine("action执行之前");
-            }
-        }
+            DateFormatHandling = DateFormatHandling.MicrosoftDateFormat,
+            DateFormatString = "yyyy-MM-dd HH:mm:ss",
+            NullValueHandling = NullValueHandling.Ignore,
+        };
     }
 }

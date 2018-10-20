@@ -5,6 +5,7 @@ using Base.Rpository;
 using PayEntities;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace PaySys.Rpository
 {
@@ -12,9 +13,14 @@ namespace PaySys.Rpository
     {
         public CustomerRpository(PayContext dbContext) : base(dbContext) { }
 
-        public Task<int> GetMaxJobNumber()
+        public async Task<int> GetMaxJobNumber()
         {
-            return this.DbContext.TCustomer.Select(a => a.FjobNumber).ToAsyncEnumerable().Max();
+            var q = this.DbContext.TAdmin.Where(a => a != null).Select(a => a.JobNumber);
+            var list = await q.ToListAsync();
+            if (list.Any())
+                return list.Max();
+
+            return 0;
         }
     }
 }

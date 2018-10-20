@@ -1,16 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TCustomer : BaseEntity
     {
         [Key]
-        public long FaccountId { get; set; }
-        public int FjobNumber { get; set; }
-        public string FfullName { get; set; }
-        public string FfirstLoginIp { get; set; }
-        public string FlastLoginIp { get; set; }
-        public DateTime FfirstLoginTime { get; set; }
-        public DateTime FlastLoginTime { get; set; }
+        public long AccountId { get; set; }
+        public int JobNumber { get; set; }
+        public string FullName { get; set; }
+        public string FirstLoginIp { get; set; }
+        public string LastLoginIp { get; set; }
+        public DateTime FirstLoginTime { get; set; }
+        public DateTime LastLoginTime { get; set; }
     }
 }

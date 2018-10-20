@@ -1,26 +1,27 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
     public partial class TMerchantExtend : BaseEntity
     {
         [Key]
-        public long FaccountId { get; set; }
-        public int Fmid { get; set; }
-        public string Fmname { get; set; }
-        public string Faddress { get; set; }
-        public string FidCard { get; set; }
-        public string FfullName { get; set; }
-        public string Fphone { get; set; }
-        public string Fmobile { get; set; }
-        public string Fpostcode { get; set; }
-        public string FstieUrl { get; set; }
-        public string Fqq { get; set; }
-        public string Fmsn { get; set; }
-        public string FlastLoginIp { get; set; }
-        public DateTime? FlastLoginTime { get; set; }
-        public string FwithdrawPwd { get; set; }
-        public string Fremark { get; set; }
-        public string FgoogleSecretKey { get; set; }
+        public long AccountId { get; set; }
+        public int Mid { get; set; }
+        public string Mname { get; set; }
+        public string Address { get; set; }
+        public string IdCard { get; set; }
+        public string FullName { get; set; }
+        public string Phone { get; set; }
+        public string Mobile { get; set; }
+        public string Postcode { get; set; }
+        public string StieUrl { get; set; }
+        public string Qq { get; set; }
+        public string Msn { get; set; }
+        public string LastLoginIp { get; set; }
+        public DateTime? LastLoginTime { get; set; }
+        public string WithdrawPwd { get; set; }
+        public string Remark { get; set; }
+        public string GoogleSecretKey { get; set; }
     }
 }

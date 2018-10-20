@@ -8,11 +8,12 @@ namespace PayEntities
     {
         [Key]
         public long Id { get; set; }
-        public string Fname { get; set; }
-        public string Fpassword { get; set; }
-        public string Femai { get; set; }
-        public AccountType Ftype { get; set; }
-        public int FsecretProblem { get; set; }
-        public int FsecretAnswer { get; set; }
+        public string Name { get; set; }
+        public string Password { get; set; }
+        public string Emai { get; set; }
+        public AccountType Type { get; set; }
+        public int SecretProblem { get; set; }
+        public int SecretAnswer { get; set; }
+
     }
 }

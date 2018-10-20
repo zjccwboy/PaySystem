@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace PaySys.Rpository
 {
@@ -12,9 +13,11 @@ namespace PaySys.Rpository
     {
         public AccountRpository(PayContext dbContext) : base(dbContext) { }
 
-        public Task<bool> ExistedAsync(string name)
+        public async Task<bool> ExistedAsync(string name)
         {
-            return this.DbContext.TAccount.Where(a => a.Fname == name).ToAsyncEnumerable().Any();
+            var q = this.DbContext.TAccount.Where(a=>a.Name == name);
+            var t = await q.ToListAsync();
+            return t.Any();
         }
 
     }

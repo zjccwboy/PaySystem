@@ -26,7 +26,7 @@ namespace Base.Rpository
         private void SetKeyValue(Type type, object entity)
         {
             var propes = type.GetProperties();
-            var prope = propes.Where(a => a.Module.GetCustomAttribute(typeof(KeyAttribute)) != null).FirstOrDefault();
+            var prope = propes.Where(a => a.GetCustomAttribute(typeof(KeyAttribute)) != null).FirstOrDefault();
             var value = (long)prope.GetValue(entity);
             if(value == 0)
             {

@@ -1,15 +1,17 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
+
 namespace PayEntities
 {
     public partial class TRefundOrder : BaseEntity
     {
         [Key]
-        public long FoderNum { get; set; }
-        public string FmorderNum { get; set; }
-        public int Fmid { get; set; }
-        public decimal Famount { get; set; }
-        public int FrefundType { get; set; }
-        public decimal FrefundCharge { get; set; }
-        public decimal FrefundAmount { get; set; }
+        public long OderNum { get; set; }
+        public string Mnum { get; set; }
+        public int Mid { get; set; }
+        public decimal Amount { get; set; }
+        public int RefundType { get; set; }
+        public decimal RefundCharge { get; set; }
+        public decimal RefundAmount { get; set; }
     }
 }

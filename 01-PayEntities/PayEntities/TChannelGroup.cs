@@ -1,4 +1,5 @@
-﻿
+﻿using System;
+using System.Collections.Generic;
 
 namespace PayEntities
 {
@@ -6,8 +7,8 @@ namespace PayEntities
     {
         [Key]
         public long Id { get; set; }
-        public string FgroupName { get; set; }
-        public long FgroupType { get; set; }
-        public string Fchannels { get; set; }
+        public string GroupName { get; set; }
+        public long GroupType { get; set; }
+        public string Channels { get; set; }
     }
 }
